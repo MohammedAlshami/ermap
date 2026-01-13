@@ -1,0 +1,18 @@
+[
+  { "state": "Kelantan", "water_access_percent": 73.9, "water_scarcity_percent": 26.1 },
+  { "state": "Sabah", "water_access_percent": 80.5, "water_scarcity_percent": 19.5 },
+  { "state": "Sarawak", "water_access_percent": 83.7, "water_scarcity_percent": 16.3 },
+  { "state": "Terengganu", "water_access_percent": 96.0, "water_scarcity_percent": 4.0 },
+  { "state": "Pahang", "water_access_percent": 98.0, "water_scarcity_percent": 2.0 },
+  { "state": "Kedah", "water_access_percent": 98.3, "water_scarcity_percent": 1.7 },
+  { "state": "Perlis", "water_access_percent": 99.5, "water_scarcity_percent": 0.5 },
+  { "state": "Perak", "water_access_percent": 99.6, "water_scarcity_percent": 0.4 },
+  { "state": "Selangor", "water_access_percent": 99.8, "water_scarcity_percent": 0.2 },
+  { "state": "Johor", "water_access_percent": 99.9, "water_scarcity_percent": 0.1 },
+  { "state": "Pulau Pinang", "water_access_percent": 99.9, "water_scarcity_percent": 0.1 },
+  { "state": "Negeri Sembilan", "water_access_percent": 99.9, "water_scarcity_percent": 0.1 },
+  { "state": "Melaka", "water_access_percent": 100.0, "water_scarcity_percent": 0.0 },
+  { "state": "WP Labuan", "water_access_percent": 100.0, "water_scarcity_percent": 0.0 },
+  { "state": "WP Kuala Lumpur", "water_access_percent": 100.0, "water_scarcity_percent": 0.0 },
+  { "state": "WP Putrajaya", "water_access_percent": 100.0, "water_scarcity_percent": 0.0 }
+]

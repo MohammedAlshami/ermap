@@ -1,0 +1,38 @@
+---
+name: No README Files
+description: Never create README or documentation files outside the documentation folder
+---
+
+# Documentation Rules
+
+## NEVER Create These Files:
+- ❌ README.md (in any location)
+- ❌ QUICK_START.md
+- ❌ MIGRATION.md
+- ❌ ARCHITECTURE.md
+- ❌ GUIDE.md
+- ❌ Any .md files in the root directory
+- ❌ Any .md files in subdirectories (except `documentation/`)
+
+## Where Documentation Goes:
+
+All documentation MUST be in the `documentation/` folder:
+
+```
+documentation/
+├── components/        # Component API documentation
+│   └── MapLibrary.md
+└── instructions/      # AI usage instructions
+    └── how-to-use.md
+```
+
+## If You Need to Add Documentation:
+
+1. **Component docs:** Add to `documentation/components/[ComponentName].md`
+2. **Usage instructions:** Update `documentation/instructions/how-to-use.md`
+3. **Never** create new README files anywhere
+
+## Remember:
+- This project has a dedicated documentation structure
+- README files clutter the project
+- All docs belong in `documentation/` folder only

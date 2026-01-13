@@ -1,0 +1,96 @@
+---
+name: Data Organization
+description: Data is organized by country in public/data/[country]/ structure
+---
+
+# Data Organization
+
+## Folder Structure
+
+All data is organized by country:
+
+```
+public/data/[country]/
+├── speedmart/      # Retail location data
+├── districts/      # District/region data
+├── hotels/         # Hotel/accommodation data
+├── geojson/        # Geographic boundaries
+└── statistics/     # Statistical data (JSON/CSV)
+```
+
+## Current Countries
+
+### Malaysia
+```
+public/data/malaysia/
+├── speedmart/
+│   ├── 99 SpeedMart.xlsx
+│   ├── speedmart.xlsx
+│   ├── sabah_speedmart.geojson
+│   └── sabah_supermarkets_20260111_231508.geojson
+├── districts/
+│   ├── District Statistics .xlsx
+│   └── district-statistics.xlsx
+├── hotels/
+│   └── sabah_hotels.geojson
+├── geojson/
+│   ├── malaysia.geojson
+│   ├── malaysia.district.geojson
+│   └── my.json
+└── statistics/
+    ├── Malaysia-Hotel-2023-Supply-Statistics.pdf
+    ├── water_access.csv
+    ├── water_scarcity.json
+    ├── population_density.json
+    └── tourism.json
+```
+
+## Data Path Format
+
+Always use this format in slide configs:
+
+```tsx
+data: '/data/malaysia/category/filename.geojson'
+```
+
+Examples:
+- Hotels: `/data/malaysia/hotels/sabah_hotels.geojson`
+- SpeedMart: `/data/malaysia/speedmart/sabah_speedmart.geojson`
+- Boundaries: `/data/malaysia/geojson/my.json`
+- Statistics: `/data/malaysia/statistics/tourism.json`
+
+## Adding New Countries
+
+1. Create folder structure:
+   ```
+   public/data/[country-name]/
+   ├── speedmart/
+   ├── districts/
+   ├── hotels/
+   ├── geojson/
+   └── statistics/
+   ```
+
+2. Add your data files
+
+3. Copy template:
+   ```
+   cp app/config/malaysiaSlides.tsx app/config/[country]Slides.tsx
+   ```
+
+4. Update all data paths in the new config file
+
+## File Naming
+
+- Use lowercase
+- Use hyphens for spaces: `water-scarcity.json`
+- Include region if applicable: `sabah_hotels.geojson`
+- Use ISO dates for timestamped files: `YYYYMMDD`
+
+## Data Types
+
+- **GeoJSON**: `.geojson` - Geographic data with coordinates
+- **Excel**: `.xlsx` - Tabular data
+- **JSON**: `.json` - Structured data
+- **CSV**: `.csv` - Statistical data
+- **PDF**: `.pdf` - Reference documents

@@ -1,0 +1,48 @@
+---
+name: No Markdown Files in Root
+description: Never create .md files outside the documentation folder
+---
+
+# No Markdown Files Rule
+
+## NEVER Create These Files Anywhere:
+
+❌ README.md
+❌ QUICK_START.md  
+❌ GUIDE.md
+❌ ARCHITECTURE.md
+❌ MIGRATION.md
+❌ INSTRUCTIONS.md
+❌ Any other .md files in root or subdirectories
+
+## Exception: Documentation Folder Only
+
+✅ `documentation/` - ONLY place for .md files
+✅ `documentation/components/` - Component docs
+✅ `documentation/instructions/` - Usage instructions
+
+## If You Need to Document Something:
+
+### Component Documentation:
+- Add to: `documentation/components/[ComponentName].md`
+- Example: `documentation/components/MapLibrary.md`
+
+### Usage Instructions:
+- Update: `documentation/instructions/how-to-use.md`
+- Don't create new files, update existing ones
+
+### Project Changes:
+- Update: `documentation/PROJECT_STRUCTURE.md`
+- Or update: `documentation/index.md`
+
+## Why This Rule?
+
+- Prevents documentation clutter
+- Keeps project clean
+- Single source of truth in `documentation/`
+- Easier to find information
+- Professional project structure
+
+## Remember:
+
+**NO .md files outside `documentation/` folder - EVER!**

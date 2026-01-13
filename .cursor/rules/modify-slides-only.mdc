@@ -1,0 +1,110 @@
+---
+name: Modify Slides Only
+description: Primary file to modify for map changes is app/config/slidesConfig.tsx
+---
+
+# Map Modification Rules
+
+## ⭐ THE ONLY FILE TO MODIFY
+
+**`app/config/slidesConfig.tsx`** - This is the ONLY file you need to modify for all map changes.
+
+When user asks to modify the map:
+1. Open `app/config/slidesConfig.tsx`
+2. Find the relevant slide by `id` or `title`
+3. Modify camera, layers, legend, or sidePanel
+4. Keep structure intact
+5. **DO NOT** touch any other files
+
+## File Modification Priority
+
+### PRIMARY FILE (Modify This):
+✅ **`app/config/slidesConfig.tsx`** - ALL slide definitions
+
+### DO NOT MODIFY:
+🔒 `app/page.tsx` - Data loading (don't touch)
+🔒 `app/components/MapLibrary/*` - Core library (don't touch)
+🔒 Any other files
+
+## The Goal
+
+Make it so AI only needs to modify ONE file: `app/config/slidesConfig.tsx`
+
+Everything else is already set up and working.
+
+## Slide Structure
+
+Each slide in `malaysiaSlides.tsx` has:
+
+```tsx
+{
+  id: 'unique-slide-id',
+  title: 'Slide Title',
+  description: 'Description',
+  duration: 8000,
+  camera: {
+    center: [lng, lat],
+    zoom: 8,
+    pitch: 45,
+    bearing: 0,
+  },
+  layers: [...],
+  legend: {...},
+  sidePanel: {...},
+}
+```
+
+## Common Modifications
+
+### Change Camera:
+```tsx
+camera: {
+  center: [116.0735, 5.9804],
+  zoom: 10,
+  pitch: 60,
+  bearing: -45,
+}
+```
+
+### Change Colors:
+```tsx
+paint: {
+  'circle-color': '#NEW_COLOR',
+  'circle-radius': 8,
+}
+```
+
+### Add Layer:
+```tsx
+layers: [
+  {
+    id: 'new-layer',
+    source: { 
+      type: 'geojson', 
+      data: '/data/malaysia/category/file.geojson' 
+    },
+    layers: [{
+      id: 'layer-id',
+      type: 'circle',
+      paint: { 'circle-color': '#FF5733' }
+    }]
+  }
+]
+```
+
+### Update Legend:
+```tsx
+legend: {
+  title: 'Legend',
+  position: 'bottom-left',
+  entries: [
+    { label: 'Category', color: '#FF5733' },
+  ],
+}
+```
+
+## Remember:
+- All map changes happen in `malaysiaSlides.tsx`
+- Don't touch the library code
+- Keep slide IDs unique
+- Validate data paths exist

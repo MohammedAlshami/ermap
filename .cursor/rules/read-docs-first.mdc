@@ -1,0 +1,71 @@
+---
+name: Read Documentation First
+description: Always read documentation before making changes to understand the project structure
+---
+
+# Documentation First Rule
+
+## Before Making Any Changes
+
+**ALWAYS** read the documentation in the `documentation/` folder first.
+
+## Documentation Structure
+
+```
+documentation/
+├── index.md                    # Start here - Overview of all docs
+├── PROJECT_STRUCTURE.md        # Project organization and structure
+├── components/
+│   └── MapLibrary.md          # Complete API reference for MapLibrary
+└── instructions/
+    └── how-to-use.md          # Detailed guide on modifying slides
+```
+
+## Reading Order
+
+### 1. First Time Working on This Project:
+1. Read `documentation/index.md` - Quick overview
+2. Read `documentation/instructions/how-to-use.md` - How to modify slides
+3. Read `documentation/PROJECT_STRUCTURE.md` - Understand the structure
+
+### 2. When Modifying the Map:
+1. Read `documentation/instructions/how-to-use.md`
+2. Open `app/config/slidesConfig.tsx`
+3. Make your changes (this is the ONLY file to modify)
+
+### 3. When Adding Features to the Library:
+1. Read `documentation/components/MapLibrary.md`
+2. Read `documentation/instructions/how-to-use.md`
+3. Understand the API before modifying
+
+### 4. When Adding a New Country:
+1. Read `documentation/instructions/how-to-use.md`
+2. Look at `app/templates/country-template.tsx`
+3. Follow the multi-country setup guide
+
+## Why Read Documentation First?
+
+- ✅ Understand the project architecture
+- ✅ Know which files to modify
+- ✅ Avoid creating README files
+- ✅ Follow established patterns
+- ✅ Use proper data paths
+- ✅ Maintain consistency
+
+## Quick Reference
+
+| Task | Documentation File |
+|------|-------------------|
+| Modify map/slides | `documentation/instructions/how-to-use.md` |
+| Add new feature | `documentation/components/MapLibrary.md` |
+| Understand structure | `documentation/PROJECT_STRUCTURE.md` |
+| Quick overview | `documentation/index.md` |
+
+## Remember:
+
+**The documentation folder is the single source of truth.**
+
+- All answers are in `documentation/`
+- Don't guess - read the docs
+- Don't create new README files - update docs in `documentation/`
+- If something is unclear, ask the user rather than making assumptions

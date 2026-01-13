@@ -1,0 +1,4775 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0599597,
+          5.9543214
+        ]
+      },
+      "properties": {
+        "name": "10113 – (SBH) Cyber Square",
+        "address": "No: A-3A & A-5 (G & 1st Floor),Block A,Cyber Square,Jalan Kepayan,88250 Kota Kinabalu,Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9543214,
+        "longitude": 116.0599597
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0696398,
+          5.9753459
+        ]
+      },
+      "properties": {
+        "name": "10213 – (SBH) Api-Api Centre",
+        "address": "No: 3/G12 & 3/G13 (GF),Lorong Api-Api 2,Api-Api Centre,88000 Kota Kinabalu,Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9753459,
+        "longitude": 116.0696398
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1011964,
+          5.936707
+        ]
+      },
+      "properties": {
+        "name": "10313 – (SBH) Pavillion Bundusan",
+        "address": "Lot No: B-9-G & B-10-G, Block B, Ground Floor, Pavillion Bundusan, Jalan Bundusan, 88300 Penampang, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.936707,
+        "longitude": 116.1011964
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0656769,
+          5.923679
+        ]
+      },
+      "properties": {
+        "name": "10413 – (SBH) Kepayan Point",
+        "address": "Lot No. 26 & 27, Block D, Ground Floor, Kepayan Point, Jalan Pintas, Off Jalan Penampang By-Pass, 88200 Penampang, Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.923679,
+        "longitude": 116.0656769
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1337022,
+          5.9891862
+        ]
+      },
+      "properties": {
+        "name": "10513 – (SBH) Taman Nelly",
+        "address": "Lot 217 & 218, Ground Floor, Taman Nelly 9 (Phase 4), Jalan Nountun, Inanam, 88450 Kota Kinabalu, Sabah",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9891862,
+        "longitude": 116.1337022
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2057997,
+          6.1084996
+        ]
+      },
+      "properties": {
+        "name": "10613 – (SBH) Telipok Ria",
+        "address": "Lot No: K-G-55 & Lot No: K-G-56, Wisma Telipok Ria Phase 2, Jalan Telipok Lama Tuaran, 89208 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1084996,
+        "longitude": 116.2057997
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2026328,
+          6.1149186
+        ]
+      },
+      "properties": {
+        "name": "10714 – (SBH) Tmn Sri Rugading",
+        "address": "Lot No. S4-0-32 & S4-0-33, Grd Floor, Lrg Rugading 3, Jalan Tuaran, Telipok, 89200 Tuaran, Sabah",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1149186,
+        "longitude": 116.2026328
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1472213,
+          6.0441071
+        ]
+      },
+      "properties": {
+        "name": "10814 – (SBH) D�Sulaman Square",
+        "address": "Lot No. 1 (Ground Floor), Wisma D�Sulaman Square, Jalan Sulaman, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0441071,
+        "longitude": 116.1472213
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0878002,
+          5.9468276
+        ]
+      },
+      "properties": {
+        "name": "10914 – (SBH) Lintas Plaza",
+        "address": "Lot No: 2-0 & 3-0, Block F, Lrg Lintas Plaza 4, Lintas Plaza, Luyang, 88300 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9468276,
+        "longitude": 116.0878002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1480318,
+          6.0210533
+        ]
+      },
+      "properties": {
+        "name": "11014 – (SBH) Menggatal Plaza",
+        "address": "Lot No: H-0-10 & H-0-11 (G), Block H, Lorong Permai 11, Menggatal Plaza Phase 2, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0210533,
+        "longitude": 116.1480318
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1583029,
+          6.0940472
+        ]
+      },
+      "properties": {
+        "name": "11114 – (SBH) Polytechnic Commercial Centre",
+        "address": "Lot No. 22, Block A-4, Ground Floor, Polytechnic Commercial Centre, Phase 1, Kota Kinabalu Industrial Park, Off Sulaman Highway 88460 Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0940472,
+        "longitude": 116.1583029
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1476963,
+          6.0431287
+        ]
+      },
+      "properties": {
+        "name": "11214 – (SBH) Universiti Plaza",
+        "address": "Unit No. 31 & 32 (G), Block 3, Universiti Plaza, Jln Sulaman, Menggatal, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0431287,
+        "longitude": 116.1476963
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1313962,
+          5.993414
+        ]
+      },
+      "properties": {
+        "name": "11314 – (SBH) Inanam Business Centre",
+        "address": "Lot No.60 & 61 (Ground Floor), Block H, Inanam Business Centre, Batu 6, Jalan Tuaran, 88450 Kota Kinabalu, Sabah",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.993414,
+        "longitude": 116.1313962
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0773497,
+          5.9528353
+        ]
+      },
+      "properties": {
+        "name": "11414 – (SBH) Fortuna Centre",
+        "address": "Lot No. 7, Ground Floor, Block D2, Lorong Seroja 2, Taman Fortuna Commercial Centre, Off Jalan Penampang, 88200 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9528353,
+        "longitude": 116.0773497
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0502548,
+          5.8597748
+        ]
+      },
+      "properties": {
+        "name": "11514 – (SBH) Lok Kawi Galleria",
+        "address": "Lot No. 5, Ground Floor, Lok Kawi Galleria Commercial Centre Lok Kawi Height, Jln Pengalat Lok Kawi, 88200 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.8597748,
+        "longitude": 116.0502548
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1611124,
+          5.9828919
+        ]
+      },
+      "properties": {
+        "name": "11714 – (SBH) Menggatal Town",
+        "address": "No. 29, Lot 1, Ground Floor, Block D, Menggatal Township, Jln Tuaran, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9828919,
+        "longitude": 116.1611124
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0842242,
+          5.9371518
+        ]
+      },
+      "properties": {
+        "name": "11814 – (SBH) Taman Suria",
+        "address": "Lot 4 & 5 (G), Block SH4, Taman Suria Shop Apartment, Phase 2, 88300 Penampang, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9371518,
+        "longitude": 116.0842242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.122349,
+          6.016392
+        ]
+      },
+      "properties": {
+        "name": "11915 – (SBH) Kingfisher Plaza",
+        "address": "No. 22-0 Lot 123, No. 20-0 & 124 (G), Lrg Plaza Kingfisher 5, Kingfisher Plaza Phase B, 88400 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.016392,
+        "longitude": 116.122349
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0414312,
+          5.9008718
+        ]
+      },
+      "properties": {
+        "name": "12015 – (SBH) Taman Pasir Putih",
+        "address": "Lot 299 & 300, Taman Pasir Putih Phase 4, Putatan, 88200 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9008718,
+        "longitude": 116.0414312
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1221278,
+          5.9459128
+        ]
+      },
+      "properties": {
+        "name": "12115 – (SBH) Country Height Plaza",
+        "address": "No.26 & 27 (G), Country Height Plaza, Phase 1, Jalan Bantayan, Inanam, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9459128,
+        "longitude": 116.1221278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2694874,
+          6.1350594
+        ]
+      },
+      "properties": {
+        "name": "12215 – (SBH) Tamparuli Town",
+        "address": "Lot G1 & G2, Wisma Ting Hui, Pekan Tamparuli, Jln Tamparuli, 89250 Tamparuli, Sabah.",
+        "district": "Tamparuli",
+        "state": "Sabah",
+        "latitude": 6.1350594,
+        "longitude": 116.2694874
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0687724,
+          5.860529
+        ]
+      },
+      "properties": {
+        "name": "12315 – (SBH) Taman Ketiau",
+        "address": "Lot No: 3 & 4, Block A, Ground Floor, Tmn Ketiau, Phase 1, Kampung Tombovo 88200 Penampang, Sabah",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.860529,
+        "longitude": 116.0687724
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0432527,
+          5.8369702
+        ]
+      },
+      "properties": {
+        "name": "12415 – (SBH) Rose Garden Plaza",
+        "address": "Lot No. S4 & S5, Ground Floor, Rose Garden Plaza, Jalan Kinarut, 88600 Kinarut, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.8369702,
+        "longitude": 116.0432527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2214632,
+          6.1472724
+        ]
+      },
+      "properties": {
+        "name": "12515 – (SBH) Berungis Commercial Centre",
+        "address": "Lot 4&5, Ground Floor, Berungis Commercial Centre, Jalan Tuaran, 89200 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1472724,
+        "longitude": 116.2214632
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.430228,
+          6.354652
+        ]
+      },
+      "properties": {
+        "name": "12615 – (SBH) KBCC",
+        "address": "Lot No. 7 & 8, Ground Floor, Kota Belud Commercial Centre, 89150 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.354652,
+        "longitude": 116.430228
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0777371,
+          5.9245011
+        ]
+      },
+      "properties": {
+        "name": "12715 – (SBH) Kobusak Commercial Centre",
+        "address": "Lot No. 30 & 31, Ground Floor, Block D, Plaza 333, Kobusak Commercial Centre, Jln Pintas, Penampang, 88200, Kota Kinabalu, Sabah",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9245011,
+        "longitude": 116.0777371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2720012,
+          5.8578941
+        ]
+      },
+      "properties": {
+        "name": "12815 – (SBH) T-Junction Business Centre",
+        "address": "Lot 7 & 8, Phase 2, Km 33, Kg. Dungun, T-Junction Business Centre, P.O Box 68, Jalan Kota Kinabalu � Kota Belud, 89207 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 5.8578941,
+        "longitude": 116.2720012
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2334085,
+          6.1766235
+        ]
+      },
+      "properties": {
+        "name": "12915 – (SBH) Kampung Batangan",
+        "address": "Lot 3 & 4, Ground Floor, Kg. Batangan 3-Storey Shoplot, Jalan Bolong, 89200 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1766235,
+        "longitude": 116.2334085
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1553189,
+          6.0574321
+        ]
+      },
+      "properties": {
+        "name": "13016 – (SBH) Taman Indah Permai",
+        "address": "Lot No. 9 & 10, Ground Floor, The Urban Mini Mall, Taman Indah Permai, Jalan Sepanggar, Menggatal, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0574321,
+        "longitude": 116.1553189
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0761109,
+          5.9796087
+        ]
+      },
+      "properties": {
+        "name": "13116 – (SBH) Bandaran Berjaya",
+        "address": "Lot 55, No. 2, Tingkat Bawah, Bandaran Berjaya, Jln Padang Kota Kinabalu, 88000 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9796087,
+        "longitude": 116.0761109
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0503794,
+          5.9144794
+        ]
+      },
+      "properties": {
+        "name": "13216 – (SBH) Taman Jumbo",
+        "address": "Lot 6 & 7, Tingkat Bawah, Rumah Kedai Taman Jumbo, Jln Putatan Petagas, 88200 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9144794,
+        "longitude": 116.0503794
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1840044,
+          6.0751854
+        ]
+      },
+      "properties": {
+        "name": "13316 – (SBH) Taman Putera Jaya",
+        "address": "Lot 5 & 6, Ground Floor, Block H, Taman Putera Jaya, Telipok, Jalan Tuaran, 88450 Kota Kinabalu, Sabah",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0751854,
+        "longitude": 116.1840044
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1249062,
+          6.0435918
+        ]
+      },
+      "properties": {
+        "name": "13416 – (SBH) Asia City",
+        "address": "Lot 69 & 70, Ground Floor, Block H, Asia City 88000 Kota Kinabalu,Sabah",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0435918,
+        "longitude": 116.1249062
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1449557,
+          6.0063988
+        ]
+      },
+      "properties": {
+        "name": "13516 – (SBH) Inanam Town",
+        "address": "13-0 & 14-0 (Ground Floor), Lorong Inanam Plaza, Inanam Newtown Ship, Phase 3 Lot 1, Jalan Tuaran, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0063988,
+        "longitude": 116.1449557
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8976623,
+          5.6192359
+        ]
+      },
+      "properties": {
+        "name": "13616 – (SBH) Sabindo Lok Kawi",
+        "address": "Lot No 4, Tkt Bwh, Rumah Kedai, Taman Lok Kawi, Jalan Papar Lok Kawi, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.6192359,
+        "longitude": 115.8976623
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7523913,
+          6.6531465
+        ]
+      },
+      "properties": {
+        "name": "13716 – (SBH) Langkon Commercial Centre",
+        "address": "Lot No 16, Ground Floor, Langkon Commercial Centre, Jalan Kota Belud-Kudat, 89108 Kota Maruda, Sabah",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.6531465,
+        "longitude": 116.7523913
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0309363,
+          6.7058818
+        ]
+      },
+      "properties": {
+        "name": "13816 – (SBH) Kota Marudu Town",
+        "address": "Lot 5 & 6, Tingkat Bawah, Kampung Kampak Shop Houses, Jalan Pekan Baru, 89100 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.7058818,
+        "longitude": 117.0309363
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1477049,
+          6.0428851
+        ]
+      },
+      "properties": {
+        "name": "13916 – (SBH) 1 Borneo",
+        "address": "G-923 & 925, Ground Floor, Auto City, 1- Borneo Hypermall, Jalan Sulaman, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0428851,
+        "longitude": 116.1477049
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8981586,
+          5.6314719
+        ]
+      },
+      "properties": {
+        "name": "14016 – (SBH) Kimanis Centro",
+        "address": "Lot 11, Ground Floor, Kimanis Centro, Kimanis, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.6314719,
+        "longitude": 115.8981586
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1322502,
+          5.9932765
+        ]
+      },
+      "properties": {
+        "name": "14116 – (SBH) Taman Bunga Raja",
+        "address": "Lot No 3, Ground Floor, Bunga Raja Shopping Complex, Jalan Bunga Ulam Raja Outer Ring Road, Inanam, 88300 Kota Kinabalu, Sabah",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9932765,
+        "longitude": 116.1322502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0499267,
+          5.8975763
+        ]
+      },
+      "properties": {
+        "name": "14216 – (SBH) Putra Square",
+        "address": "Lot 10 & 11, Tkt Bwh, Putra Square, Phase 1, Jln Putatan, 88200 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.8975763,
+        "longitude": 116.0499267
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0967989,
+          5.975648
+        ]
+      },
+      "properties": {
+        "name": "14316 – (SBH) Dah Yeh Villa",
+        "address": "No: 46 & 59, Ground Floor, Dah Yeh Villa, Jalan Purun, 88300 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.975648,
+        "longitude": 116.0967989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4310738,
+          6.3552406
+        ]
+      },
+      "properties": {
+        "name": "14416 – (SBH) Kota Belud Plaza",
+        "address": "Lot 1 & 2, Ground Floor, Blok A, Kota Belud Township, Kota Belud Plaza, 89157 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3552406,
+        "longitude": 116.4310738
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1813365,
+          6.0625958
+        ]
+      },
+      "properties": {
+        "name": "14516 – (SBH) Bandar Sierra",
+        "address": "Lot A-3 & A-3A, Type l, Ground Floor, Sierra Biz hub, Jalan Tuaran, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0625958,
+        "longitude": 116.1813365
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9604034,
+          5.7512361
+        ]
+      },
+      "properties": {
+        "name": "14616 – (SBH) Taman Pengalat Besar",
+        "address": "Lot No 16 & 17, Phase 6, Ground Floor, Taman Pengalat Besar, Jalan Pengalat Lok Kawi, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7512361,
+        "longitude": 115.9604034
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.6966003,
+          5.5264766
+        ]
+      },
+      "properties": {
+        "name": "14716 – (SBH) Membakut",
+        "address": "Lot No 1 & 2, Ground Floor, Wisma SQS 2 Membakut, P.O. Box 11031, KM 19 Beaufort- Papar Highway, Membakut, 88811 Beaufort, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.5264766,
+        "longitude": 115.6966003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7351684,
+          5.3445806
+        ]
+      },
+      "properties": {
+        "name": "14816 – (SBH) 1 Beaufort",
+        "address": "Lot No. 105 & 106, Ground Floor, Block N, 1 Beaufort Commercial Centre, Phase 2, Jalan Papar – Sipitang, 89807 Beaufort, Sabah.",
+        "district": "Beaufort",
+        "state": "Sabah",
+        "latitude": 5.3445806,
+        "longitude": 115.7351684
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0338636,
+          5.8177036
+        ]
+      },
+      "properties": {
+        "name": "14916 – (SBH) La Gloxinia",
+        "address": "Lot No. 4 & 5, Ground Floor, Blk B, La Gloxinia Avenue, Phase IIB, Kinarut South, 88600 Papar, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.8177036,
+        "longitude": 116.0338636
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1395218,
+          6.0162857
+        ]
+      },
+      "properties": {
+        "name": "15016 – (SBH)Tmn Canggih",
+        "address": "S1 & S2, Ground Floor, Taman Canggih Commercial Centre, Tuaran Bypass Road, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0162857,
+        "longitude": 116.1395218
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.678158,
+          5.9664974
+        ]
+      },
+      "properties": {
+        "name": "15116 – (SBH)Wisma Hidayat Ranau",
+        "address": "Lot G-3 & G-4, Wisma Hidayat, KM 2, Taman Dahlia, Kampung Lasing, Jalan Ranau- Sandakan, 89308 Ranau, Sabah.",
+        "district": "Ranau",
+        "state": "Sabah",
+        "latitude": 5.9664974,
+        "longitude": 116.678158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0715394,
+          5.9653924
+        ]
+      },
+      "properties": {
+        "name": "15216 – (SBH)Karamunsing BDC",
+        "address": "Lot No 42, Karamunsing Go Down, Jalan Belia, 88100 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9653924,
+        "longitude": 116.0715394
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.100959,
+          5.9088111
+        ]
+      },
+      "properties": {
+        "name": "15316 – (SBH) Bandar Penampang",
+        "address": "Lot No. 10 & 11, Block 28, Bandar Penampang Phase 2A, Penampang, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9088111,
+        "longitude": 116.100959
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3366823,
+          6.2582927
+        ]
+      },
+      "properties": {
+        "name": "15417 – (SBH) Tenghilan Town",
+        "address": "Lot 5 & 6, Jalan Tuaran – Kota Belud, Pekan Tenghilan, 89260 Tenghilan, Sabah.",
+        "district": "Tenghilan",
+        "state": "Sabah",
+        "latitude": 6.2582927,
+        "longitude": 116.3366823
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8100077,
+          5.489161
+        ]
+      },
+      "properties": {
+        "name": "15517 – (SBH) Bongawan Plaza",
+        "address": "Ground Floor Lot 1 & 2, Block C Bongawan Plaza, 89700 Bongawan, Sabah.",
+        "district": "Bongawan",
+        "state": "Sabah",
+        "latitude": 5.489161,
+        "longitude": 115.8100077
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0831714,
+          5.8612114
+        ]
+      },
+      "properties": {
+        "name": "15617 – (SBH) Taman Maang",
+        "address": "Ground Floor, Lot 1 & 2, Semi detached shop/office, Taman Maang Apartment 1, District of Penampang, 89500 Penampang, Sabah.",
+        "district": "Penampang",
+        "state": "Sabah",
+        "latitude": 5.8612114,
+        "longitude": 116.0831714
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.6639941,
+          5.9445264
+        ]
+      },
+      "properties": {
+        "name": "15717 – (SBH) Kiaburi Plaza",
+        "address": "Ground Floor Lot No. N4 & N5, Kiaburi Plaza, Jalan Tambunan Ranau, 89308 Ranau, Sabah.",
+        "district": "Ranau",
+        "state": "Sabah",
+        "latitude": 5.9445264,
+        "longitude": 116.6639941
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9273706,
+          5.7314097
+        ]
+      },
+      "properties": {
+        "name": "15817 – (SBH) Sri Alam Perdana",
+        "address": "Lot No. 11-0 & 12-0, Ground Floor, Block B, Sri Alam Perdana Commercial Center, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7314097,
+        "longitude": 115.9273706
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.8993161,
+          5.6274351
+        ]
+      },
+      "properties": {
+        "name": "15917 – (SBH) Bandar Emas Industri",
+        "address": "Lot No.9 & 10, Jalan Papar-Sipitang, Bandar Emas Industri, 89807 Beaufort, Sabah.",
+        "district": "Beaufort",
+        "state": "Sabah",
+        "latitude": 5.6274351,
+        "longitude": 115.8993161
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0866868,
+          5.9575671
+        ]
+      },
+      "properties": {
+        "name": "16017 – (SBH) Bornion Luyang",
+        "address": "Lot 11 & 12, Bornion Centre, Jalan Luyang, 88300 Kota Kinabalu.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9575671,
+        "longitude": 116.0866868
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9344431,
+          5.7026091
+        ]
+      },
+      "properties": {
+        "name": "16117 – (SBH) Benoni Commercial Centre",
+        "address": "Lot 11 & 12, Block A1, Ground Floor, Jalan Papar Baru, Benoni Commercial Center, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7026091,
+        "longitude": 115.9344431
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0432527,
+          5.8369702
+        ]
+      },
+      "properties": {
+        "name": "16217 – (SBH) Taman Limauan",
+        "address": "Lot 11 & 12, Ground Floor, Jalan Limauan, Limauan Square, Kinarut South, 88600 Kinarut Papar, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.8369702,
+        "longitude": 116.0432527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.6154732,
+          4.9801119
+        ]
+      },
+      "properties": {
+        "name": "16317 – (SBH) 1 Sipitang",
+        "address": "Lot No.13 & 14, Block B, 1 Sipitang, 89850 Sipitang, Sabah.",
+        "district": "Sipitang",
+        "state": "Sabah",
+        "latitude": 4.9801119,
+        "longitude": 115.6154732
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2777073,
+          5.5591583
+        ]
+      },
+      "properties": {
+        "name": "16417 – (SBH) Tambunan Town",
+        "address": "Lot No. 4 & 5, Block F, Tambunan New Township, Phase IV, 89650 Tambunan, Sabah.",
+        "district": "Tambunan",
+        "state": "Sabah",
+        "latitude": 5.5591583,
+        "longitude": 116.2777073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8459577,
+          6.9088883
+        ]
+      },
+      "properties": {
+        "name": "16517 – (SBH) Friendly Town",
+        "address": "Lot J-9-0 & J-10-0, Block J, Lorong Friendly Town-3A, 89058 Kudat, Sabah.",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.9088883,
+        "longitude": 116.8459577
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8466165,
+          6.8830571
+        ]
+      },
+      "properties": {
+        "name": "16617 – (SBH) Taman Seri Awana",
+        "address": "Lot No. 2 & 3, Ground Floor, Intermediate Shoplot, Taman Seri Awana, 89058 Kudat, Sabah.",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.8830571,
+        "longitude": 116.8466165
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1821894,
+          5.372431
+        ]
+      },
+      "properties": {
+        "name": "16717 – (SBH) 1 Plaza",
+        "address": "Lot No. A3A & A3,Type A2 & A3, One Plaza, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.372431,
+        "longitude": 116.1821894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1463855,
+          5.3245849
+        ]
+      },
+      "properties": {
+        "name": "16817 – (SBH) Akong Light Industries",
+        "address": "Lot No.S9 & S10 (Ground Floor) Akong Light Industries, Jalan Tenom-Keningau, 89000 Keningau Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3245849,
+        "longitude": 116.1463855
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1505233,
+          5.3362178
+        ]
+      },
+      "properties": {
+        "name": "16917 – (SBH) Adika Commercial Complex",
+        "address": "Lot No.62 & 63, Ground Floor, Adika Commercial Complex, Jalan Semarak, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3362178,
+        "longitude": 116.1505233
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9480306,
+          5.0764817
+        ]
+      },
+      "properties": {
+        "name": "17017 – (SBH) Tenom Town",
+        "address": "Lot No.7 & 8, Ground Floor, Tenom Commercial Centre, Phase 2, Jalan Tenom Kemabong, 89907 Tenom, Sabah.",
+        "district": "Tenom",
+        "state": "Sabah",
+        "latitude": 5.0764817,
+        "longitude": 115.9480306
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7442238,
+          5.3463832
+        ]
+      },
+      "properties": {
+        "name": "17117 – (SBH) Beaufort Town",
+        "address": "Lot 6 & 7, Lo Chung Park, Jalan Padas Empat, 89800 Beaufort, Sabah.",
+        "district": "Beaufort",
+        "state": "Sabah",
+        "latitude": 5.3463832,
+        "longitude": 115.7442238
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8466165,
+          6.8830571
+        ]
+      },
+      "properties": {
+        "name": "17217 – (SBH) Sikuati",
+        "address": "21 � KM Jalan Atas, Kampung Sikuati 89058, Kudat, Sabah.",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.8830571,
+        "longitude": 116.8466165
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.183404,
+          6.0915144
+        ]
+      },
+      "properties": {
+        "name": "17317 – (SBH) UUS",
+        "address": "SD-7 & SD-8, Ground Floor, University Utama Square, Jalan Kayu Madang,Telipok,88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0915144,
+        "longitude": 116.183404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2730835,
+          6.1410385
+        ]
+      },
+      "properties": {
+        "name": "17417 – (SBH) Tamparuli Point",
+        "address": "Lot 12 & 13, Block B, Ground Floor, Tamparuli Point, 89250 Tuaran, Sabah.",
+        "district": "Tamparuli",
+        "state": "Sabah",
+        "latitude": 6.1410385,
+        "longitude": 116.2730835
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8205545,
+          5.8129365
+        ]
+      },
+      "properties": {
+        "name": "17517 – (SBH) Permata Wawasan Matupang",
+        "address": "Sedco Shophouses, Lot 3 & 4, Ground Floor, Kg Matupang, Jalan Ranau – Telupid, 89307 Ranau, Sabah.",
+        "district": "Ranau",
+        "state": "Sabah",
+        "latitude": 5.8129365,
+        "longitude": 116.8205545
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0700213,
+          5.940295
+        ]
+      },
+      "properties": {
+        "name": "17617- (SBH) Market 88",
+        "address": "Lot 1 & 2 Ground Floor, Block F, Lorong Pusat Komersil 881/1, 88 MarketPlace, Jalan Pintas, 88300 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.940295,
+        "longitude": 116.0700213
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5498145,
+          5.0754238
+        ]
+      },
+      "properties": {
+        "name": "17718 – (SBH) Sipitang Town",
+        "address": "Lot No. 3 & 4, Block A, LPPB, Phase 3, Lorong Durian, 89850 Sipitang, Sabah.",
+        "district": "Sipitang",
+        "state": "Sabah",
+        "latitude": 5.0754238,
+        "longitude": 115.5498145
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5270949,
+          4.987916
+        ]
+      },
+      "properties": {
+        "name": "17818 – (SBH) Sindumin Town",
+        "address": "Lot 10 & 11, Bangunan Kedai Sosio Ekonomi Sedco, Pekan Baru Sindumin, Jalan Tun Hussien Onn, 89850 Sindumin, Sabah.",
+        "district": "Sipitang",
+        "state": "Sabah",
+        "latitude": 4.987916,
+        "longitude": 115.5270949
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1029936,
+          5.9337189
+        ]
+      },
+      "properties": {
+        "name": "17918 – (SBH) Beverly Hills",
+        "address": "Lot 1, Ground Floor, Block E, Bundusan Plaza, Jalan Bundusan, 89500 Penampang, Sabah.",
+        "district": "Penampang",
+        "state": "Sabah",
+        "latitude": 5.9337189,
+        "longitude": 116.1029936
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5899899,
+          5.1099019
+        ]
+      },
+      "properties": {
+        "name": "18018 – (SBH) Mesapol Town",
+        "address": "TL 18, Jalan Pekan Mesapol, Sipitang, P.O.Box 18, 89857, Sipitang, Sabah.",
+        "district": "Sipitang",
+        "state": "Sabah",
+        "latitude": 5.1099019,
+        "longitude": 115.5899899
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.054136,
+          6.7298525
+        ]
+      },
+      "properties": {
+        "name": "18118 – (SBH) Pekan Baru Pitas",
+        "address": "Lot 2 & 3, Block B, Bangunan Sedco, Pekan Baru Pitas, Peti Surat 249 89108 Kota Marudu.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.7298525,
+        "longitude": 117.054136
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1515197,
+          6.0577273
+        ]
+      },
+      "properties": {
+        "name": "18218 – (SBH) Taman Fulliwa",
+        "address": "Lot 15 & 16, Taman Fulliwa Fasa 1, Mile 11, Jalan Tuaran, Pos Mini Indah Permai, Peti Surat 272, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0577273,
+        "longitude": 116.1515197
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0495622,
+          5.8982133
+        ]
+      },
+      "properties": {
+        "name": "18318 – (SBH) FCA Terawi",
+        "address": "Lot 2, 3 & 4, Ground Floor, FCA Building, Jalan Terawi, Putatan, 89500 Penampang, Sabah.",
+        "district": "Penampang",
+        "state": "Sabah",
+        "latitude": 5.8982133,
+        "longitude": 116.0495622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1953518,
+          6.1731905
+        ]
+      },
+      "properties": {
+        "name": "18418 – (SBH) Kampung Laya-Laya",
+        "address": "Jalan Sulaman, Kampung Lok Batik, 89208 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1731905,
+        "longitude": 116.1953518
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.703225,
+          5.3625696
+        ]
+      },
+      "properties": {
+        "name": "18518 – (SBH) Kampung Limbawang",
+        "address": "Kg Limbawang, Jalan Beaufort – Menumbok, 89800 Beaufort, Sabah.",
+        "district": "Beaufort",
+        "state": "Sabah",
+        "latitude": 5.3625696,
+        "longitude": 115.703225
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2268975,
+          6.1894713
+        ]
+      },
+      "properties": {
+        "name": "18618 – (SBH) Plaza CKS",
+        "address": "Lot 6 & 7 (Ground Floor), Block A (Intermediate), Plaza CKS Tuaran, Kg.Tutoh, Jalan Tuaran Kota Belud, 89207 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1894713,
+        "longitude": 116.2268975
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.024262,
+          5.7723696
+        ]
+      },
+      "properties": {
+        "name": "18918 – (SBH) Kampung Kawang",
+        "address": "Kedai Sedco, Lot 3 & 4, Kg Kawang, Jalan Papar Lama, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7723696,
+        "longitude": 116.024262
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1773053,
+          6.0596702
+        ]
+      },
+      "properties": {
+        "name": "19018 – (SBH) Bandar Putra",
+        "address": "Lot No.264, Block Row AK, Bandar Putra, Jalan Tuaran, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0596702,
+        "longitude": 116.1773053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7041826,
+          5.9996142
+        ]
+      },
+      "properties": {
+        "name": "19118 – (SBH) Kampung Lohan",
+        "address": "Lot C & D, Kampung Lohan 1, Peti Surat 591, Jalan Lohan Bongkud, 89308 Ranau, Sabah.",
+        "district": "Ranau",
+        "state": "Sabah",
+        "latitude": 5.9996142,
+        "longitude": 116.7041826
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.077998,
+          5.940821
+        ]
+      },
+      "properties": {
+        "name": "19218 – (SBH) Taman Cantek",
+        "address": "Lot 2-0 & 3-0, Ground Floor, Taman Cantek Shoplot, Lorong Rampai, 88200 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.940821,
+        "longitude": 116.077998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1187597,
+          5.9693304
+        ]
+      },
+      "properties": {
+        "name": "19418 – (SBH) Taman BDC",
+        "address": "Ground Floor, Lot 14 & 15, Taman BDC, Lorong Pokok Resam A, 88300 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9693304,
+        "longitude": 116.1187597
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1661204,
+          5.9798863
+        ]
+      },
+      "properties": {
+        "name": "19518 – (SBH) Taman Seri Kionsom",
+        "address": "Lot No 2 & 3 (Ground Floor), Taman Seri Kionsom, Jalan Kionsom, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9798863,
+        "longitude": 116.1661204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9401111,
+          5.1101944
+        ]
+      },
+      "properties": {
+        "name": "19618 – (SBH) Taman Ten San",
+        "address": "Lot No 2 & 3 (Ground Floor), Taman Ten San, Jalan Tenom-Sapong, 89900 Tenom, Sabah.",
+        "district": "Tenom",
+        "state": "Sabah",
+        "latitude": 5.1101944,
+        "longitude": 115.9401111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417356,
+          6.3908151
+        ]
+      },
+      "properties": {
+        "name": "19718 – (SBH) Kampung Sembirai",
+        "address": "NT No. 6571, Jalan Kota Belud Bypass, Peti Surat 101, 89158 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3908151,
+        "longitude": 116.417356
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2502756,
+          5.4484979
+        ]
+      },
+      "properties": {
+        "name": "19818 – (SBH) Apin-apin",
+        "address": "Native Title No.133054636, Apin-Apin, Jalan Tambunan-Keningau, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.4484979,
+        "longitude": 116.2502756
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1243179,
+          5.9095263
+        ]
+      },
+      "properties": {
+        "name": "19918 – (SBH) Taman Vista Kiranau",
+        "address": "Lot 6 & 7, Ground Floor, Block H, Taman Vista Seri Kiranau, Jalan Kibambangan, 89500 Penampang, Sabah",
+        "district": "Penampang",
+        "state": "Sabah",
+        "latitude": 5.9095263,
+        "longitude": 116.1243179
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1201716,
+          5.91458
+        ]
+      },
+      "properties": {
+        "name": "20118 – (SBH) Plaza Kivatu",
+        "address": "Lot 27 & 28, Plaza Kivatu, Kampung Tuavon, Jalan Penampang-Tambunan, 89500 Penampang, Sabah",
+        "district": "Penampang",
+        "state": "Sabah",
+        "latitude": 5.91458,
+        "longitude": 116.1201716
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4217756,
+          5.7311853
+        ]
+      },
+      "properties": {
+        "name": "20218 – (SBH) Kampung Tombotuon",
+        "address": "NT. 143022584, Kampung Tombotuon, Jalan Ranau-Tambunan, 89650 Tambunan, Sabah",
+        "district": "Tambunan",
+        "state": "Sabah",
+        "latitude": 5.7311853,
+        "longitude": 116.4217756
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5771159,
+          5.5327179
+        ]
+      },
+      "properties": {
+        "name": "20318 – (SBH) Kampung Kikansa",
+        "address": "NT 554, Kampung Ki Kansa, Jalan Kuala Penyu Tamu Kayul, 89740 Kuala Penyu, Sabah.",
+        "district": "Kuala Penyu",
+        "state": "Sabah",
+        "latitude": 5.5327179,
+        "longitude": 115.5771159
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7176562,
+          6.7523321
+        ]
+      },
+      "properties": {
+        "name": "20418 – (SBH) Matunggong Kudat",
+        "address": "Lot 1 & 2, Kampung Sumangkap, Jalan Sapi-Nangoh, KM 42, 89050 Kudat, Sabah",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.7523321,
+        "longitude": 116.7176562
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.8077998,
+          3.056655
+        ]
+      },
+      "properties": {
+        "name": "20518 – (SBH) Taman Bakti Ikhlas",
+        "address": "Lot 2 & 3, Ground Floor, Taman Ikhlas Bakti Ph 3, Off Jalan Tuaran By-Pass, 88450 Kota Kinabalu, Sabah, Malaysia",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 3.056655,
+        "longitude": 101.8077998
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.091811,
+          5.9614413
+        ]
+      },
+      "properties": {
+        "name": "20619 – (SBH) Wisma Damai",
+        "address": "Parcel No: 7, Block No 7, Ground Floor, Wisma Damai, 88300 Luyang, Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9614413,
+        "longitude": 116.091811
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0562303,
+          5.8766494
+        ]
+      },
+      "properties": {
+        "name": "20719 – (SBH) Taman Desa",
+        "address": "Shop Lot No 4 & 5, Taman Desa Seri Ketiau, Jalan Ketiau Tombovo, 89500 Putatan, Sabah.",
+        "district": "Penampang",
+        "state": "Sabah",
+        "latitude": 5.8766494,
+        "longitude": 116.0562303
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.294239,
+          6.0503648
+        ]
+      },
+      "properties": {
+        "name": "20919 – (SBH) Kiulu Town",
+        "address": "NT 044017530, Kampung Ranap, Poturidong, Jalan Kiulu Pukak Mantob, 89250 Tamparuli, Sabah",
+        "district": "Tamparuli",
+        "state": "Sabah",
+        "latitude": 6.0503648,
+        "longitude": 116.294239
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.3696844,
+          5.3165794
+        ]
+      },
+      "properties": {
+        "name": "21019 – (SBH) Menumbok Town",
+        "address": "CL. 185121975, Pekan Menumbok, Peti Surat 16, Jalan Kastam, 89767 Menumbok, Kuala Penyu, Sabah",
+        "district": "Menumbok",
+        "state": "Sabah",
+        "latitude": 5.3165794,
+        "longitude": 115.3696844
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1347813,
+          5.9948501
+        ]
+      },
+      "properties": {
+        "name": "21119 – (SBH) Inanam Point",
+        "address": "Lot 5 & 7, Ground Floor, Block J, Inanam Point (Inanam Commercial Centre), Lorong Inanam Point 3, Mile 6, Jalan Tuaran, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9948501,
+        "longitude": 116.1347813
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.933384,
+          5.7341392
+        ]
+      },
+      "properties": {
+        "name": "21219 – (SBH) Papar Town",
+        "address": "Lot 8 & 9, Ground Floor, Kedai Pekan Papar, Jalan Bunga Raya, 85607 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7341392,
+        "longitude": 115.933384
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1989,
+          6.0939806
+        ]
+      },
+      "properties": {
+        "name": "21319 – (SBH) Telipok Town",
+        "address": "Lot 28, Rumah Kedai Sedco Telipok, Pekan Telipok, Jalan Tuaran, 89200 Telipok Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.0939806,
+        "longitude": 116.1989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8466165,
+          6.8830571
+        ]
+      },
+      "properties": {
+        "name": "21419 – (SBH) Taman Sri Kapur",
+        "address": "Lot G7 & G6, Block B, Mile Lower Road held under Master Title CL. 055334604 & CL. 055334613, Jalan Tanjung Kapur 1, 89058 Kudat, Sabah.",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.8830571,
+        "longitude": 116.8466165
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2991553,
+          6.1897918
+        ]
+      },
+      "properties": {
+        "name": "21519 – (SBH) Kampung Topokon",
+        "address": "Lot 3 & 4, Topokon Shophouse, Jalan Topokon Labuaya, 89250 Tamparuli, Sabah.",
+        "district": "Tamparuli",
+        "state": "Sabah",
+        "latitude": 6.1897918,
+        "longitude": 116.2991553
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4310738,
+          6.3552406
+        ]
+      },
+      "properties": {
+        "name": "21619 – (SBH) Kampung Rangalau",
+        "address": "NT. 4731, Kg Rangalau, Jalan By Pass, 89158, Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3552406,
+        "longitude": 116.4310738
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.6966003,
+          5.5264766
+        ]
+      },
+      "properties": {
+        "name": "21719 – (SBH) Kampung Pimping",
+        "address": "Lot 2, NT. 173169956, Kampung Pimping, 89720 Membakut, Sabah.",
+        "district": "Membakut",
+        "state": "Sabah",
+        "latitude": 5.5264766,
+        "longitude": 115.6966003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1629395,
+          5.3449172
+        ]
+      },
+      "properties": {
+        "name": "21819 – (SBH) Plaza Palma",
+        "address": "No.4-0, Ground Floor, Plaza Palma, Taman Villa Palma, Fasa 1, Jalan Liawan, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3449172,
+        "longitude": 116.1629395
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.224603,
+          5.4186544
+        ]
+      },
+      "properties": {
+        "name": "21919 – (SBH) Padasa CC",
+        "address": "Lot 4 & Lot 5, Ground Floor, Padasa Commercial Complex, Off Jalan Tambunan-Keningau, 89008 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.4186544,
+        "longitude": 116.224603
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.782045,
+          6.4543281
+        ]
+      },
+      "properties": {
+        "name": "22019 – (SBH) Kampung Lotong",
+        "address": "NT Serial No. 223030760, Kg Lotong, Jalan Lotong, 89100 Kota Marudu, Sabah",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.4543281,
+        "longitude": 116.782045
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0480205,
+          5.9093227
+        ]
+      },
+      "properties": {
+        "name": "22119 – (SBH) Kompleks Sinsuran",
+        "address": "Ko-Pelajaran, Block A, Lot 5 & 6 Sinsuran Kompleks, Jalan Jesselton, 88200, Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9093227,
+        "longitude": 116.0480205
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4095858,
+          6.3483518
+        ]
+      },
+      "properties": {
+        "name": "22219 – (SBH) Pangkalan Abai",
+        "address": "NT No. 2006030355, Kg Pangkalan Abai Kota Belud, Jalan Kg Pangkalan Abai, 89157 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3483518,
+        "longitude": 116.4095858
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2032671,
+          5.398628
+        ]
+      },
+      "properties": {
+        "name": "22319 – (SBH) Kampung Bingkor",
+        "address": "NT No.18229, Kg Bingkor, Off Jalan Bypass Bingkor, 89000 Keningau, Sabah",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.398628,
+        "longitude": 116.2032671
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8474428,
+          6.8818777
+        ]
+      },
+      "properties": {
+        "name": "22419 – (SBH) Kudat Town",
+        "address": "Kedai No. 802, Ground Floor, Jalan OKK Haji Abdul Ghani, 89050 Kudat, Sabah",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.8818777,
+        "longitude": 116.8474428
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5982386,
+          5.5703212
+        ]
+      },
+      "properties": {
+        "name": "22519 – (SBH) Kuala Penyu Town",
+        "address": "Kedai Lot No 14 (Bawah), Jalan Pekan Kuala Penyu, Pekan Kuala Penyu, 89740 Kuala Penyu, Sabah.",
+        "district": "Kuala Penyu",
+        "state": "Sabah",
+        "latitude": 5.5703212,
+        "longitude": 115.5982386
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.9456129,
+          6.6813011
+        ]
+      },
+      "properties": {
+        "name": "22619 – (SBH) Kampung Pinggan-Pinggan",
+        "address": "NT Serial No. 233008912, Kg Pinggan-Pinggan Pitas, Jalan Langkon Pitas, 89100 Kota Marudu Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.6813011,
+        "longitude": 116.9456129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8557197,
+          6.581196
+        ]
+      },
+      "properties": {
+        "name": "22719 – (SBH) Kampung Taritipan",
+        "address": "LA. 191-53, Kg Taritipan, Jalan Pitas, 89100 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.581196,
+        "longitude": 116.8557197
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5607129,
+          5.9813331
+        ]
+      },
+      "properties": {
+        "name": "22819 – (SBH) Kundasang",
+        "address": "NT.063046702, KM 16, Highway Jalan Ranau-Tamparuli, Kg Kinasaraban, Kundasang, 89308 Ranau, Sabah.",
+        "district": "Ranau",
+        "state": "Sabah",
+        "latitude": 5.9813331,
+        "longitude": 116.5607129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1323147,
+          5.6261117
+        ]
+      },
+      "properties": {
+        "name": "22919 – (SBH) Telupid Town",
+        "address": "Block A, Lot 6B and Lot 7, Jalan Ranau-Sandakan, Taman Momogun, Pekan Telupid, 89100 Beluran, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 5.6261117,
+        "longitude": 117.1323147
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7083393,
+          6.4908551
+        ]
+      },
+      "properties": {
+        "name": "23019 – (SBH) Kampung Tagaroh",
+        "address": "NT. 225310332, Lot No 1287, Kampung Tagaroh, Jalan Pinatau, 89100 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.4908551,
+        "longitude": 116.7083393
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4414422,
+          6.4079933
+        ]
+      },
+      "properties": {
+        "name": "23119 – (SBH) Kampung Taun Gusi",
+        "address": "NT.033064381, Kampung Taun Gusi, Jalan Kota Belud Bypass, 89150 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.4079933,
+        "longitude": 116.4414422
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5340272,
+          6.4679457
+        ]
+      },
+      "properties": {
+        "name": "23219 – (SBH) Kampung Timbang",
+        "address": "LA. 159-60, Kampung Timbang, Jalan Kota Belud-Kudat, 89150 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.4679457,
+        "longitude": 116.5340272
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4517246,
+          5.0513547
+        ]
+      },
+      "properties": {
+        "name": "23319 – (SBH) Nabawan",
+        "address": "NT. 153033786, Kg. Malinja, Nabawan, Jalan Tawau – Keningau, 89957 Nabawan Sabah.",
+        "district": "Nabawan",
+        "state": "Sabah",
+        "latitude": 5.0513547,
+        "longitude": 116.4517246
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4918532,
+          6.3803693
+        ]
+      },
+      "properties": {
+        "name": "23419 – (SBH) Kampung Tampasuk",
+        "address": "NT. No. 03310295, Jalan Batang Rosok, 89150 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3803693,
+        "longitude": 116.4918532
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2150278,
+          6.2164167
+        ]
+      },
+      "properties": {
+        "name": "23519 – (SBH) Kampung Indai",
+        "address": "Lot 1, N.T No 043155497, Kg Indai, Jalan Sulaman 89150 Tuaran, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.2164167,
+        "longitude": 116.2150278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0766962,
+          5.9847112
+        ]
+      },
+      "properties": {
+        "name": "23619 – (SBH) Gaya Street",
+        "address": "No.7, Ground Floor, Jalan Pantai, 88000 Kota Kinabalu.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9847112,
+        "longitude": 116.0766962
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.23279,
+          6.176269
+        ]
+      },
+      "properties": {
+        "name": "23719 – (SBH) Tuaran Town",
+        "address": "Lot 2 and 3, Block K), Jalan Soon Choon Fong, Pekan Tuaran, 89208 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.176269,
+        "longitude": 116.23279
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1725799,
+          5.3479076
+        ]
+      },
+      "properties": {
+        "name": "23819 – (SBH) Kampung Tuarid Taud",
+        "address": "CL Serial No. 135334959 Lot 1, No. 135334968 Lot 2, Tuarid Taud, 89007 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3479076,
+        "longitude": 116.1725799
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4665975,
+          6.3172988
+        ]
+      },
+      "properties": {
+        "name": "23919 – (SBH) Kampung Taginambur",
+        "address": "NT. No. 033137978, Kg Taginambur, Jalan Ranau By Pass, 89150 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3172988,
+        "longitude": 116.4665975
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.6931925,
+          5.9439948
+        ]
+      },
+      "properties": {
+        "name": "24019 – (SBH) Kampung Marakau",
+        "address": "NT. No. 06302055, Kampung Marakau, Jalan Libang, Marakau, 89300 Ranau, Sabah.",
+        "district": "Ranau",
+        "state": "Sabah",
+        "latitude": 5.9439948,
+        "longitude": 116.6931925
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6698286,
+          32.4315813
+        ]
+      },
+      "properties": {
+        "name": "24119 – (SBH) Kampung Ulu Klias",
+        "address": "NT No. 173241300, Kampung Pilajau – Ulu Klias, Jalan Limbawang-Kota Kinabalu, 89807 Beaufort.",
+        "district": "Beaufort",
+        "state": "Sabah",
+        "latitude": 32.4315813,
+        "longitude": -80.6698286
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8449604,
+          6.8829319
+        ]
+      },
+      "properties": {
+        "name": "24220 – (SBH) Kampung Landung Ayang",
+        "address": "Lot 1 & 2, Bangunan LPPB Landung Ayang, Tingkat Bawah, Peti Surat 755, 89057 Kudat, Sabah.",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.8829319,
+        "longitude": 116.8449604
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3366961,
+          5.6337129
+        ]
+      },
+      "properties": {
+        "name": "24320 – (SBH) Kampung Nambayan",
+        "address": "NT No. 145310908, Kampung Nambayan, Jalan Keningau-Tambunan, 89650 Tambunan, Sabah.",
+        "district": "Tambunan",
+        "state": "Sabah",
+        "latitude": 5.6337129,
+        "longitude": 116.3366961
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0698088,
+          5.6588434
+        ]
+      },
+      "properties": {
+        "name": "24420 – (SBH) Kampung Taviu",
+        "address": "NT No. 083229083, Kg.Taviu, Jalan Ranau-Sandakan, 89100 Beluran, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 5.6588434,
+        "longitude": 117.0698088
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.773249,
+          6.5016565
+        ]
+      },
+      "properties": {
+        "name": "24520 – (SBH) Kota Marudu Town 2",
+        "address": "Ground Floor, Block B-Lot 14&15, One Marudu Commercial Center, Jalan Korongkom, 89108 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.5016565,
+        "longitude": 116.773249
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.6659381,
+          5.9531213
+        ]
+      },
+      "properties": {
+        "name": "24620 – (SBH) Ranau Town",
+        "address": "Ground Floor, Lot 6 & 7, Ranau Plaza 2, Jalan Kembar Pekan, Pekan Ranau, 89308 Ranau, Sabah.",
+        "district": "Ranau",
+        "state": "Sabah",
+        "latitude": 5.9531213,
+        "longitude": 116.6659381
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0432527,
+          5.8369702
+        ]
+      },
+      "properties": {
+        "name": "24720 – (SBH) Palm Beach CC",
+        "address": "Lot No 1 & 2, Palm Beach Commercial Centre, Jalan Baru Papar-Kinarut, 89600, Kinarut, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.8369702,
+        "longitude": 116.0432527
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1734577,
+          6.1624321
+        ]
+      },
+      "properties": {
+        "name": "24820 – (SBH) Timbok",
+        "address": "NT No. 043200086, Kampung Lok Batik, Jalan Pantai Dalit,89200 Tuaran, Sabah",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1624321,
+        "longitude": 116.1734577
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.108149,
+          5.990241
+        ]
+      },
+      "properties": {
+        "name": "24920 – (SBH) Likas",
+        "address": "Lot 1 & 2, Tkt Bwh, Kedai Likas, Jalan Tuaran Likas, 88450, Kota Kinabalu, Sabah",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.990241,
+        "longitude": 116.108149
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0877008,
+          5.9301045
+        ]
+      },
+      "properties": {
+        "name": "25020 – (SBH) Grand Plaza Putatan",
+        "address": "Lot 1 & 2, Putatan Light Industrial Centre, Jalan Putatan, 88200 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9301045,
+        "longitude": 116.0877008
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0532082,
+          5.8987224
+        ]
+      },
+      "properties": {
+        "name": "25120 – (SBH) Putatan Town",
+        "address": "Lot 4 & Lot 19, Glr Flr Blk S1 Jalan Putatan, Type C 3 Storey, New Township Putatan 88100, Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.8987224,
+        "longitude": 116.0532082
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4357424,
+          5.0436159
+        ]
+      },
+      "properties": {
+        "name": "25220 – (SBH) Kampung Biah",
+        "address": "NT. No. 135348560,Kg. Batu 4, Biah Jalan Nabawan, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.0436159,
+        "longitude": 116.4357424
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0561079,
+          5.9535442
+        ]
+      },
+      "properties": {
+        "name": "25320 – (SBH) Tanjung Aru",
+        "address": "Lot 2 & Lot 3,Ground Floor, Block II, Jalan Pinang Tanjung Aru, 88100 Kota Kinabalu, Sabah",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9535442,
+        "longitude": 116.0561079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0872011,
+          5.9584353
+        ]
+      },
+      "properties": {
+        "name": "25420 – (SBH) Hilltop",
+        "address": "Ground Floor of MPKK No. 3 Lot 8 & No. 1 Lot 9, Kolam Plaza, 88300 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9584353,
+        "longitude": 116.0872011
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1019667,
+          5.9112478
+        ]
+      },
+      "properties": {
+        "name": "25520 – (SBH) Donggongon",
+        "address": "Lot No. 1, Ground Floor, Pusat Dagangan Donggongon, Kampung Sapau, 89500 Penampang",
+        "district": "Penampang",
+        "state": "Sabah",
+        "latitude": 5.9112478,
+        "longitude": 116.1019667
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1579395,
+          5.3359731
+        ]
+      },
+      "properties": {
+        "name": "25620 – (SBH) Jutaya Commercial",
+        "address": "Lot 3 & Lot 4, Ground Floor, Jutaya Commercial, Jalan Lingkudau, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3359731,
+        "longitude": 116.1579395
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.778783,
+          5.9362658
+        ]
+      },
+      "properties": {
+        "name": "25720 – (SBH) Kampung Nalapak",
+        "address": "N.T Serial No. 063051838, Kampung Nalapak, Jalan Ranau-Sandakan,89300 Ranau, Sabah.",
+        "district": "Ranau",
+        "state": "Sabah",
+        "latitude": 5.9362658,
+        "longitude": 116.778783
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0781337,
+          5.9283525
+        ]
+      },
+      "properties": {
+        "name": "25820 – (SBH) Taman Rainfield",
+        "address": "Lot S1, Ground Floor, Rainfield Court Shop Lot, Jalan Nosoob, 88200 Penampang Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9283525,
+        "longitude": 116.0781337
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5391863,
+          5.0568571
+        ]
+      },
+      "properties": {
+        "name": "25920 – Merintaman",
+        "address": "NT Serial No. 3606, Kampung Merintaman, Jalan Merintaman, 89850 Sipitang, Sabah.",
+        "district": "Sipitang",
+        "state": "Sabah",
+        "latitude": 5.0568571,
+        "longitude": 115.5391863
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0850823,
+          5.9623362
+        ]
+      },
+      "properties": {
+        "name": "26020 – (SBH) Taman Jasmine",
+        "address": "Lot 3 & 4, Luyang Phase 1, Jalan Sena, Off Jalan Kolam, Luyang 88100 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9623362,
+        "longitude": 116.0850823
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0703353,
+          5.9308366
+        ]
+      },
+      "properties": {
+        "name": "26120 – (SBH) Lintas Jaya",
+        "address": "Lot 6 & 7, Ground Floor, Block G, Lintas Jaya Uptownship, Jalan Lintas Kepayan, 88300 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9308366,
+        "longitude": 116.0703353
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.759903,
+          5.4115909
+        ]
+      },
+      "properties": {
+        "name": "26220 – (SBH) Lumat Centre",
+        "address": "Lot No. S8 & S9, Block B, Ground Floor, Lumat Centre (Phase 1) Kg. Lumat, Jalan Membakut-Beaufort, 89807 Beaufort, Sabah.",
+        "district": "Beaufort",
+        "state": "Sabah",
+        "latitude": 5.4115909,
+        "longitude": 115.759903
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0811668,
+          5.925077
+        ]
+      },
+      "properties": {
+        "name": "26320 – (SBH) Taman Landbreeze",
+        "address": "Lot 8, Tkt Bwh, Tmn Land Breeze, Jln Penampang, Penampang, 88200, Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.925077,
+        "longitude": 116.0811668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3059592,
+          5.1452056
+        ]
+      },
+      "properties": {
+        "name": "26421 – (SBH) Sook",
+        "address": "NT Serial No. 85130847, Sook, Batu 24 ½ Jln Nabawan Twu, 89009 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.1452056,
+        "longitude": 116.3059592
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3892348,
+          6.3823371
+        ]
+      },
+      "properties": {
+        "name": "26521 – (SBH) Kampung Kulambai",
+        "address": "NT. No 033105467, Kampung Kulambai, Jalan Kuala Abai, 89150, Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3823371,
+        "longitude": 116.3892348
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9082038,
+          4.8832179
+        ]
+      },
+      "properties": {
+        "name": "26621 – (SBH) Kemabong",
+        "address": "NT. No. 165329635, Kemabong, Jalan Tenom – Kuala Tomani, 89900 Tenom Sabah.",
+        "district": "Tenom",
+        "state": "Sabah",
+        "latitude": 4.8832179,
+        "longitude": 115.9082038
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.150293,
+          5.3448957
+        ]
+      },
+      "properties": {
+        "name": "26721 – (SBH) Taman Adika",
+        "address": "Lot 5 & Lot 6 Shoplot, Ground Floor, Taman Adika Phase 12, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3448957,
+        "longitude": 116.150293
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4288044,
+          6.3509761
+        ]
+      },
+      "properties": {
+        "name": "26821 – (SBH) Kampung Baru",
+        "address": "CL. No.035311614, Kg Baru, Kota Belud, Jalan Kg Baru, P89157 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3509761,
+        "longitude": 116.4288044
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1022238,
+          5.8940667
+        ]
+      },
+      "properties": {
+        "name": "26921 – (SBH) Kampung Nambazan",
+        "address": "NT Serial No. 10867, Kedai No. 3 & 3A, Kg. Nambazan, Jalan Penampang-Papar, 89500 Penampang, Sabah",
+        "district": "Penampang",
+        "state": "Sabah",
+        "latitude": 5.8940667,
+        "longitude": 116.1022238
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8520671,
+          6.8796332
+        ]
+      },
+      "properties": {
+        "name": "27021 – (SBH) Kudat Town 2",
+        "address": "Lot 3 & 4, Blok H Kedai Sedco, Pekan Tomborunggus, Jalan Melati, 89058 Kudat, Sabah.",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.8796332,
+        "longitude": 116.8520671
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.63769,
+          6.5308941
+        ]
+      },
+      "properties": {
+        "name": "27121 – (SBH) Kampung Mangaris",
+        "address": "NT Serial No. 224100903, Kg Mangaris, Jln Kota Belud – Kudat, 89100 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.5308941,
+        "longitude": 116.63769
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2483489,
+          6.1501706
+        ]
+      },
+      "properties": {
+        "name": "27221 – (SBH) Kampung Damat Bantayan",
+        "address": "NT Serial No.4785, Kg Damat, Jalan Kampung Bantayan Damat Sawah, 89250 Tamparuli, Sabah.",
+        "district": "Tamparuli",
+        "state": "Sabah",
+        "latitude": 6.1501706,
+        "longitude": 116.2483489
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9738263,
+          5.1826953
+        ]
+      },
+      "properties": {
+        "name": "27321 – (SBH) Kampung Simpangan",
+        "address": "CL Serial No.165320454, Kg. Tuan, 89907 Tenom, Sabah.",
+        "district": "Tenom",
+        "state": "Sabah",
+        "latitude": 5.1826953,
+        "longitude": 115.9738263
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9795744,
+          5.7071788
+        ]
+      },
+      "properties": {
+        "name": "27421 – (SBH) Kampung Tebabar",
+        "address": "NT 023007872, Kampung Tebabar. Jalan Padawan Biau, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7071788,
+        "longitude": 115.9795744
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.23279,
+          6.176269
+        ]
+      },
+      "properties": {
+        "name": "27521 – (SBH) Kampung Tambalang",
+        "address": "NT Serial No. 89194, Kg Tambalang, Jln Kg Bolong Baru-Tambalang, 89208 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.176269,
+        "longitude": 116.23279
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7652503,
+          6.5022675
+        ]
+      },
+      "properties": {
+        "name": "27622 – (SBH) 1 Avenue CC",
+        "address": "Lot No. 2-0 & 3-0, Ground Floor, Block A, 1 Avenue Commercial Centre, Jalan WK, 89108 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.5022675,
+        "longitude": 116.7652503
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1506529,
+          5.3183993
+        ]
+      },
+      "properties": {
+        "name": "27722 – (SBH) Bersatu Light IP",
+        "address": "Lot No. 11 & 12, Ground Floor, Bersatu Light Industrial Park, Jalan Tawau – Keningau, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3183993,
+        "longitude": 116.1506529
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8396927,
+          6.4863568
+        ]
+      },
+      "properties": {
+        "name": "27822 – (SBH) Kampung Rasak Darat",
+        "address": "CL Series No. 190521, Lot 5 & 6, Kg. Rasak Darat, Jln Tandek, 89100 Kota Marudu.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.4863568,
+        "longitude": 116.8396927
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0878592,
+          6.7066693
+        ]
+      },
+      "properties": {
+        "name": "27922 – (SBH) Kampung Kabatasan",
+        "address": "L.A No. 20-07232060, Kg. Kabatasan, Jalan Kanibongan, 89100 Pitas, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.7066693,
+        "longitude": 117.0878592
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9387502,
+          5.7368669
+        ]
+      },
+      "properties": {
+        "name": "28022 – (SBH) Plaza 22",
+        "address": "Ground Floor, Lot 38 & Lot 39, Block G, Plaza 22, Jalan Pengalat-Lok Kawi, 89600 Papar Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7368669,
+        "longitude": 115.9387502
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7633172,
+          6.4727192
+        ]
+      },
+      "properties": {
+        "name": "28122 – (SBH) Goshen",
+        "address": "NT No. 223142149, Lot 2 & 3, Kg. Goshen, Jalan Lotong, 89100 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.4727192,
+        "longitude": 116.7633172
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.075175,
+          5.98372
+        ]
+      },
+      "properties": {
+        "name": "28222 – (SBH) Segama",
+        "address": "Lot 4 & 5, Block B, Segama Commecial Complex, Jalan Padas, 88000 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.98372,
+        "longitude": 116.075175
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9179853,
+          5.0129096
+        ]
+      },
+      "properties": {
+        "name": "28322 – (SBH) Kampung Paal",
+        "address": "CL. No. 165274091, Kampung Paal, Jalan Tenom – Kemabong, 89900 Tenom, Sabah.",
+        "district": "Tenom",
+        "state": "Sabah",
+        "latitude": 5.0129096,
+        "longitude": 115.9179853
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.061166,
+          5.9613169
+        ]
+      },
+      "properties": {
+        "name": "28422 – (SBH) Sembulan",
+        "address": "Lot No. 10 & 11, Ground Floor, Grace Square Shophouse, Jalan Pantai Sembulan, 88100 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9613169,
+        "longitude": 116.061166
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.054136,
+          6.7298525
+        ]
+      },
+      "properties": {
+        "name": "28522 – (SBH) Kampung Pias",
+        "address": "L.A 20-14230295, Kg. Pias, Jalan Sapi Nangoh Paitan Kanibungan, 89100 Pitas, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.7298525,
+        "longitude": 117.054136
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.6966003,
+          5.5264766
+        ]
+      },
+      "properties": {
+        "name": "28622 – (SBH) Kampung Binsulok",
+        "address": "NT. 173079966, Kg. Binsulok, Jalan Kuala Penyu, 89727 Membakut, Sabah.",
+        "district": "Membakut",
+        "state": "Sabah",
+        "latitude": 5.5264766,
+        "longitude": 115.6966003
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.4618622,
+          5.4303367
+        ]
+      },
+      "properties": {
+        "name": "28722 – (SBH) Kampung Kilugus",
+        "address": "NT Serial No. 184927044, Kampung Kilugus, Jalan Beaufort-Menumbok,89740 Kuala Penyu, Sabah.",
+        "district": "Kuala Penyu",
+        "state": "Sabah",
+        "latitude": 5.4303367,
+        "longitude": 115.4618622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0565659,
+          5.8572453
+        ]
+      },
+      "properties": {
+        "name": "28822 – (SBH) Mawar CC",
+        "address": "Ground Floor, Block H, Lot 2 & 3, Mawar Commercial Center, Taman Mawar, Phase II, Mile 7 Sibuga, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8572453,
+        "longitude": 118.0565659
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0984142,
+          5.8596481
+        ]
+      },
+      "properties": {
+        "name": "28922 – (SBH) Bandar Maju CC",
+        "address": "Ground Floor, Lot 20 & 21 Bandar Maju Commercial Center, 1 1/2, Jalan Utara, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8596481,
+        "longitude": 118.0984142
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0769271,
+          5.8615368
+        ]
+      },
+      "properties": {
+        "name": "29022 -(SBH) Sandakan Town",
+        "address": "Ground Floor, Lot 1A, 1B & Lot 2A, Block 43, Third Avenue, Leila Road, Sandakan Town, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8615368,
+        "longitude": 118.0769271
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0471587,
+          5.850329
+        ]
+      },
+      "properties": {
+        "name": "29122 – (SBH) Taman Mawar",
+        "address": "Ground Floor, Lot No 2 & 3, Block A, Phase 7, Taman Mawar, Km 8.2 Jalan Sibuga, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.850329,
+        "longitude": 118.0471587
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1145082,
+          5.838381
+        ]
+      },
+      "properties": {
+        "name": "29222 – (SBH) Bandar Leila",
+        "address": "Ground Floor, Lot 6A & 6B, Block C, Bandar Leila, Mile 1, Jalan Leila, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.838381,
+        "longitude": 118.1145082
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0572583,
+          5.864243
+        ]
+      },
+      "properties": {
+        "name": "29322 – (SBH) Bandar Tyng",
+        "address": "Ground Floor, Lot 20 & 21, Block B, Taman Tyng, Batu 5, Jalan Utara, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.864243,
+        "longitude": 118.0572583
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1461899,
+          6.1130125
+        ]
+      },
+      "properties": {
+        "name": "29422 – (SBH) Taman D’Sri Gayang",
+        "address": "Ground Floor, Lot No 11 & 12, Taman D’Sri Gayang Shoplot, Jalan Sulaman Tuaran, 89208 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1130125,
+        "longitude": 116.1461899
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0309924,
+          5.8818557
+        ]
+      },
+      "properties": {
+        "name": "29523 – (SBH) Sibuga Jaya CC",
+        "address": "Ground Floor, Lot 1 & 2, Block F, Sibuga Jaya Commercial Centre (PH2), Jalan Labuk, 90000 Sandakan, Sabah, Malaysia.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8818557,
+        "longitude": 118.0309924
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1182199,
+          5.3249764
+        ]
+      },
+      "properties": {
+        "name": "29623 – (SBH) Batu 27",
+        "address": "CL Serial No. 135109616, Batu 27, Jalan Tenom – Keningau, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3249764,
+        "longitude": 116.1182199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.054483,
+          5.879662
+        ]
+      },
+      "properties": {
+        "name": "29723 – (SBH) Taman Airport",
+        "address": "CL Serial No. 075172208, Block A, Lot 1 & 2, Batu 7, Jalan Sungai Kayu, Jalan Airport, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.879662,
+        "longitude": 118.054483
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0787719,
+          5.8578146
+        ]
+      },
+      "properties": {
+        "name": "29823 – (SBH) Prima Square",
+        "address": "Ground Floor, Block 19, Lot 188 & 189, Prima Square III, Mile 4 Prima Square, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8578146,
+        "longitude": 118.0787719
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0491613,
+          5.8074404
+        ]
+      },
+      "properties": {
+        "name": "29923 – (SBH) Batu Sapi",
+        "address": "Lot 1 & 2, Ground Floor, Block A,Taman Poh Hing, Jalan Batu Sapi, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8074404,
+        "longitude": 118.0491613
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0740585,
+          5.8560095
+        ]
+      },
+      "properties": {
+        "name": "30023 – (SBH) Bandar Indah",
+        "address": "Ground Floor, Lot 4 & Lot 5, Block 2, Bandar Indah, Mile 4, Jalan Utara, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8560095,
+        "longitude": 118.0740585
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0581009,
+          5.8883159
+        ]
+      },
+      "properties": {
+        "name": "30123 – (SBH) Bandar Perdana",
+        "address": "Block E, Ground Floor, Lot 40 & 41, Bandar Perdana, Batu 7 Jalan Airport, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8883159,
+        "longitude": 118.0581009
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.5519771,
+          4.9961778
+        ]
+      },
+      "properties": {
+        "name": "30223 – (SBH) Kampung Tanjung Nipis",
+        "address": "NT Serial No. 193008230, Kg. Tanjung Nipis, Jalan Sipitang – Tenom, 89850 Sipitang, Sabah.",
+        "district": "Sipitang",
+        "state": "Sabah",
+        "latitude": 4.9961778,
+        "longitude": 115.5519771
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0860542,
+          5.8595674
+        ]
+      },
+      "properties": {
+        "name": "30323 – (SBH) Bandar Melrose",
+        "address": "Ground Floor, Lot 1 & 2, Blok B, Bandar Melrose, Batu 3 ½, Jalan Utara, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8595674,
+        "longitude": 118.0860542
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.041698,
+          5.883583
+        ]
+      },
+      "properties": {
+        "name": "30423 – (SBH) Labuk BC",
+        "address": "Ground Floor, Lot A-4 & A-5, Block A, Labuk Commercial & Business Centre, Mile 12, Jalan Labuk 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.883583,
+        "longitude": 118.041698
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0525594,
+          5.8648156
+        ]
+      },
+      "properties": {
+        "name": "30523 – (SBH) IJM",
+        "address": "Blok T, Ground Floor, Lot 17&18, Lorong Avenue 1, Bandar Utama Mile 6, North Road, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8648156,
+        "longitude": 118.0525594
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0821284,
+          5.8651549
+        ]
+      },
+      "properties": {
+        "name": "30623 – (SBH) Letat Jaya",
+        "address": "Lot-1 & Lot -2, Ground Floor, Blok N, Bandar Letat Jaya, Jalan Lintas Utara, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8651549,
+        "longitude": 118.0821284
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.123862,
+          5.8603924
+        ]
+      },
+      "properties": {
+        "name": "30723 – (SBH) Taman Grandview",
+        "address": "Lot 1 & 2, Block C, Ground Floor, Taman Grandview, Mile 1 ½ , Jalan Sim Sim, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8603924,
+        "longitude": 118.123862
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0686802,
+          5.8426862
+        ]
+      },
+      "properties": {
+        "name": "30823 – (SBH) Taman Indah Jaya",
+        "address": "Ground Floor, Lot 39 & 40, Taman Indah Jaya, Mile 4, Jalan Lintas Selatan, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8426862,
+        "longitude": 118.0686802
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9623732,
+          5.7579488
+        ]
+      },
+      "properties": {
+        "name": "30923 – (SBH) Papar Square",
+        "address": "Ground Floor, Lot 31 & 32, Block 4, Papar Square Phase 2, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7579488,
+        "longitude": 115.9623732
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.084695,
+          5.8577579
+        ]
+      },
+      "properties": {
+        "name": "31023 – (SBH) Astana Height",
+        "address": "Ground Floor, Lot 5 & Lot 6, Astana Height Ph 3, Bt 1.5, Jalan Lalang, Mile 1.5, Off Jalan Utara, P.O Box 850, 90709 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8577579,
+        "longitude": 118.084695
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1270736,
+          5.3462462
+        ]
+      },
+      "properties": {
+        "name": "31123 – (SBH) Patikang Point",
+        "address": "Lot 1 & 2, Patikang Point, Kampung Patikang Ulu, NT 133130702, 89008 Keningau, Sabah",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3462462,
+        "longitude": 116.1270736
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0787719,
+          5.8578146
+        ]
+      },
+      "properties": {
+        "name": "31223 – (SBH) Bandar Kim Fung",
+        "address": "Lot 4 & 5, Ground Floor, Block B, Bandar Kim Fung, Mile 4, North Road, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8578146,
+        "longitude": 118.0787719
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9936814,
+          5.7867757
+        ]
+      },
+      "properties": {
+        "name": "31323 – (SBH) Kampung Beringis",
+        "address": "NT. No 023175000, Kg. Beringis, Jalan Beringis Kawang, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7867757,
+        "longitude": 115.9936814
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2500467,
+          6.208235
+        ]
+      },
+      "properties": {
+        "name": "31423 – (SBH) Plaza Lemawang",
+        "address": "Ground Floor, Lot No.1 & 2, Phase A3, Plaza Lemawang, Jalan Tuaran- Kota Belud, 89200 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.208235,
+        "longitude": 116.2500467
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8466165,
+          6.8830571
+        ]
+      },
+      "properties": {
+        "name": "31523 – (SBH) Kampung Masangkong",
+        "address": "Ground Floor, Lot 1 & 2, CL 055320084, Mile 9, Jalan Sikuati, 89058 Kudat Sabah.",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.8830571,
+        "longitude": 116.8466165
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.7588847,
+          5.7604695
+        ]
+      },
+      "properties": {
+        "name": "31623 – (SBH) Bandar Check Point",
+        "address": "Ground Floor, Lot 1 & 2, Block 1, Bandar Check Point, Jalan Labuk 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.7604695,
+        "longitude": 117.7588847
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0993761,
+          5.8369167
+        ]
+      },
+      "properties": {
+        "name": "31723 – (SBH) Bandar Nam Tung",
+        "address": "Ground Floor, Lot 3 & 4, Block C, Bandar Nam Tung, Mile 2, Jalan Leila, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8369167,
+        "longitude": 118.0993761
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0987966,
+          5.8557538
+        ]
+      },
+      "properties": {
+        "name": "31823 – (SBH) Taman Sentosa",
+        "address": "Ground Floor, Lot 4 & 5, Taman Sentosa, Jln Sentosa 1, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8557538,
+        "longitude": 118.0987966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4713473,
+          6.3499892
+        ]
+      },
+      "properties": {
+        "name": "31923 – (SBH) Kampung Tambulion",
+        "address": "No. Title LA 974394, Kg. Tambulion, Jalan Kem Paradise Kota Belud, 89158 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3499892,
+        "longitude": 116.4713473
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0697995,
+          5.8690173
+        ]
+      },
+      "properties": {
+        "name": "32123 – (SBH) Taman Nasalim",
+        "address": "Ground Floor, Lot 33, Taman Nasalim, Phase 7A, Batu 5, Jln Lintas Utara, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8690173,
+        "longitude": 118.0697995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0458146,
+          5.8802981
+        ]
+      },
+      "properties": {
+        "name": "32223 – (SBH) Bandar Labuk Jaya",
+        "address": "Ground Floor, Lot 3 & Lot 4, Blk B3, Bandar Labuk Jaya, Batu 7, Jalan Lintas Labuk, 90000 Sandakan, Sabah",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8802981,
+        "longitude": 118.0458146
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1375335,
+          5.9933863
+        ]
+      },
+      "properties": {
+        "name": "32323 – (SBH) Inanam Taipan",
+        "address": "Lot No. 8 (DBKK NO. K-0-3A) & Lot No. 9 (DBKK NO. K-0-3) Ground Floor, Block K, KK Taipan Inanam, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9933863,
+        "longitude": 116.1375335
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.841236,
+          6.9146401
+        ]
+      },
+      "properties": {
+        "name": "32423 – (SBH) Friendly Garden",
+        "address": "CL055073482, No 3342 & 3343, Ground Floor, Lot SH3 & SH3A, Friendly Garden Fasa 3B,89058 Kudat, Sabah.",
+        "district": "Kudat",
+        "state": "Sabah",
+        "latitude": 6.9146401,
+        "longitude": 116.841236
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7359949,
+          5.3518935
+        ]
+      },
+      "properties": {
+        "name": "32523 – (SBH) Beaufort Sentral",
+        "address": "Lot No. 119 & 120 (Type B) Ground Floor, Beaufort Sentral, Jalan Beaufort Sentral 1, 89800 Beaufort, Sabah",
+        "district": "Beaufort",
+        "state": "Sabah",
+        "latitude": 5.3518935,
+        "longitude": 115.7359949
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0564122,
+          5.888441
+        ]
+      },
+      "properties": {
+        "name": "32623 – (SBH) Sejati Walk",
+        "address": "Unit G-D-113a, G-D-113b, G-D-115 & G-D-116, Ground Floor, Sejati Walk, Off Mile 7, Jalan Airport, 90000 Sandakan.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.888441,
+        "longitude": 118.0564122
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1189613,
+          5.8406426
+        ]
+      },
+      "properties": {
+        "name": "32723 – (SBH) BATU 1",
+        "address": "Ground Floor, Lot 9A & 9B , Block 12, Leboh Tiga, Bandar Sandakan, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8406426,
+        "longitude": 118.1189613
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0553563,
+          5.9171158
+        ]
+      },
+      "properties": {
+        "name": "32823-(SBH) K Avenue",
+        "address": "Shoplot Block A, Lot 3 & 4, Level 1, K Avenue Condominium Sodomon, Lorong K Avenue Sodomon, 88200 Penampang, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9171158,
+        "longitude": 116.0553563
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.940664,
+          5.731106
+        ]
+      },
+      "properties": {
+        "name": "32923 – (SBH) Kampung Lakut",
+        "address": "NT No. 023148987, Kampung Lakut, Jalan Surati, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.731106,
+        "longitude": 115.940664
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2105129,
+          6.1649828
+        ]
+      },
+      "properties": {
+        "name": "33023 – (SBH) Kampung Raganan",
+        "address": "NT Serial No. 04308027, Kg Raganan, Jln Raganan – Timbok, 89200 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1649828,
+        "longitude": 116.2105129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2032671,
+          5.398628
+        ]
+      },
+      "properties": {
+        "name": "33123 – (SBH) Harmony Plaza",
+        "address": "Lot No. S2 & S3, Type 1, Harmony Plaza, Jalan by Pass Bingkor, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.398628,
+        "longitude": 116.2032671
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7255955,
+          5.3432693
+        ]
+      },
+      "properties": {
+        "name": "33224 – (SBH) Bandar Mingo",
+        "address": "Lot 1 & 2, Ground Floor, Block K, Bandar Mingo, 89800 Beaufort, Sabah",
+        "district": "Beaufort",
+        "state": "Sabah",
+        "latitude": 5.3432693,
+        "longitude": 115.7255955
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1297691,
+          6.0006874
+        ]
+      },
+      "properties": {
+        "name": "33324 – (SBH) Suria Inanam",
+        "address": "Lot 5 (D-0-3) & Lot 6 (D-0-5), Ground Floor, Block D, Suria Inanam, Jln Inanam By Pass, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0006874,
+        "longitude": 116.1297691
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2142676,
+          6.1455857
+        ]
+      },
+      "properties": {
+        "name": "33424 – (SBH) The Gate",
+        "address": "Ground Floor, Lot 8-0 & Lot 9-0, The Gate, Lorong Gate, Jalan Berungis, 89208 Tuaran, Sabah",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1455857,
+        "longitude": 116.2142676
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.1125993,
+          6.7711163
+        ]
+      },
+      "properties": {
+        "name": "33524 – (SBH) Kampung Datong",
+        "address": "Lot 1 & 2, Kedai/Office Setingkat, Dalam Daerah Pitas- No. Geran Pl 236290074, Kg Datong, Jalan Bongkol, 89100 Pitas, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.7711163,
+        "longitude": 117.1125993
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9835511,
+          5.6914356
+        ]
+      },
+      "properties": {
+        "name": "33624 – (SBH) Kampung Simpudu",
+        "address": "NT Serial No. 023002584, Kg. Simpudu, Jalan Simpudu, 89600 Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.6914356,
+        "longitude": 115.9835511
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9470989,
+          5.7359223
+        ]
+      },
+      "properties": {
+        "name": "33724 – (SBH) Taman Eko Tropika",
+        "address": "Lot No. S2 & S3, Taman Eko Tropika, (2-storeys Intermediate Terraced Shop) Kg. Sapat, District of Papar, Sabah.",
+        "district": "Papar",
+        "state": "Sabah",
+        "latitude": 5.7359223,
+        "longitude": 115.9470989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1583029,
+          6.0940472
+        ]
+      },
+      "properties": {
+        "name": "33924 – (SBH) PCC 2",
+        "address": "Unit No. B8-0-54 & B8-0-55, Ground Floor, Block B8, Polytechnic Commercial Centre, Jalan Polytechnic, Sepangar, 88460 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0940472,
+        "longitude": 116.1583029
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7400814,
+          5.3428143
+        ]
+      },
+      "properties": {
+        "name": "34124 – (SBH) Beaufort Square",
+        "address": "Ground Floor, Unit No. F-043-0 & F-044-0, Block F, Beaufort Square Avenue 3, Jalan Binunuk, 89800 Beaufort, Sabah.",
+        "district": "Beaufort",
+        "state": "Sabah",
+        "latitude": 5.3428143,
+        "longitude": 115.7400814
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7585271,
+          6.4968655
+        ]
+      },
+      "properties": {
+        "name": "34224 – (SBH) Cosmopoint",
+        "address": "Lot 6 & 7, Block A, Ground Floor, Cosmopoint, Jalan Langkon, 89100 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.4968655,
+        "longitude": 116.7585271
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2643621,
+          6.1362337
+        ]
+      },
+      "properties": {
+        "name": "34324 – (SBH) Taman Wirajaya",
+        "address": "Ground Floor, Shop Lot 6 & 7, Taman Wirajaya, Jalan Tuaran-Tenghilan, 89250 Tamparuli, Sabah.",
+        "district": "Tamparuli",
+        "state": "Sabah",
+        "latitude": 6.1362337,
+        "longitude": 116.2643621
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0567198,
+          5.8877318
+        ]
+      },
+      "properties": {
+        "name": "34424 – (SBH) Taman Fajar",
+        "address": "Ground Floor, Lot 3 & 4, Taman Fajar, Jalan Airport Sandakan, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8877318,
+        "longitude": 118.0567198
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.205808,
+          6.1093414
+        ]
+      },
+      "properties": {
+        "name": "34524 – (SBH) 1 Telipok CC",
+        "address": "Lot 18 & 19, Block B, Ground Floor, 1Telipok Commercial Centre, Jalan Telipok, 89208 Tuaran, Sabah.",
+        "district": "Tuaran",
+        "state": "Sabah",
+        "latitude": 6.1093414,
+        "longitude": 116.205808
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.092788,
+          5.9196498
+        ]
+      },
+      "properties": {
+        "name": "34624 – (SBH) Austin Business Park",
+        "address": "Ground Floor, Lot 14, Block B, Austin Business Park Mogonibung, Jalan Penampang, 88200 Penampang, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9196498,
+        "longitude": 116.092788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.146668,
+          6.0246439
+        ]
+      },
+      "properties": {
+        "name": "34724 – (SBH) BTC Taman Fajar",
+        "address": "Ground Floor, Lot 1 & Lot 2, Block A, Taman Fajar Menggatal Phase 3, Mile 8 ¼, Jalan Tuaran, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0246439,
+        "longitude": 116.146668
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.060564,
+          5.8559493
+        ]
+      },
+      "properties": {
+        "name": "34824 – (SBH) Villa Permai Jaya",
+        "address": "Ground Floor, Lot 10 & 11, Villa Permai Jaya, Jalan Sibuga, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8559493,
+        "longitude": 118.060564
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0837473,
+          5.863686
+        ]
+      },
+      "properties": {
+        "name": "34924 – (SBH) Midtown Plaza",
+        "address": "Ground Floor, Lot 36 & Lot 37, Block F, Midtown Plaza Ph 1, Batu 4, Jalan Lintas Utara, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.863686,
+        "longitude": 118.0837473
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9488303,
+          3.9990195
+        ]
+      },
+      "properties": {
+        "name": "35124 – (SBH) Keningau Town",
+        "address": "Lot 3, Ground Floor, Block C1, Old Shophouse, Jalan Pan Fui Leong 89007 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 3.9990195,
+        "longitude": 113.9488303
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0870901,
+          5.931205
+        ]
+      },
+      "properties": {
+        "name": "35224 – (SBH) Taman Nosoob",
+        "address": "Ground Floor, Lot 79, Lorong Nosoob 1, Taman Nosoob, Jalan Nosoob Penampang, 88300 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.931205,
+        "longitude": 116.0870901
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1613055,
+          6.0517803
+        ]
+      },
+      "properties": {
+        "name": "35324 – (SBH) Princess Heights",
+        "address": "Lot 9 & Lot 10, Block 1A, Ground Floor, Phase 1A (Stage 1B), Alam Puteri (Princess Heights), 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0517803,
+        "longitude": 116.1613055
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0502471,
+          5.8419947
+        ]
+      },
+      "properties": {
+        "name": "35424 – (SBH) Rimba Hills",
+        "address": "Lot No RH1/A/7 & Lot No RH1/A/8, Type 2, Rimba Hills Phase 1, Penampang – Kinarut/Papar Old Highway, 89500 Papar, Sabah, Malaysia.",
+        "district": "Penampang",
+        "state": "Sabah",
+        "latitude": 5.8419947,
+        "longitude": 116.0502471
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0573715,
+          5.8651434
+        ]
+      },
+      "properties": {
+        "name": "35524 – (SBH) Bandar Utama",
+        "address": "Ground Floor, Lot 58 & 59, Block C1, Utama Place 6 & 7, Jalan Utara, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8651434,
+        "longitude": 118.0573715
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0720456,
+          5.981181
+        ]
+      },
+      "properties": {
+        "name": "35624 – (SBH) SEDCO Light Industries",
+        "address": "87, Lot 8, Ground Floor, SEDCO Light Industrial, Jalan Tuaran, Inanam, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.981181,
+        "longitude": 116.0720456
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0426947,
+          5.8851851
+        ]
+      },
+      "properties": {
+        "name": "35724 – (SBH) Labuk Square",
+        "address": "Ground Floor, Lot 1 & Lot 2, Block E, Bandar Labuk Square, Batu 9, Jalan Labuk, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8851851,
+        "longitude": 118.0426947
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7989637,
+          5.4725952
+        ]
+      },
+      "properties": {
+        "name": "35824 – (SBH) M Plaza",
+        "address": "Lot 13 & Lot 14, Ground Floor, M Plaza, Jalan Membakut Lama, 89709 Bongawan, Sabah.",
+        "district": "Bongawan",
+        "state": "Sabah",
+        "latitude": 5.4725952,
+        "longitude": 115.7989637
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0534525,
+          5.9514562
+        ]
+      },
+      "properties": {
+        "name": "35924 – (SBH) Plaza Tanjung Aru",
+        "address": "Ground Floor, Lot B-G-3A & Lot B-G-5, Plaza Tanjung Aru, Jalan Mat Salleh Tanjung Aru, 88100 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9514562,
+        "longitude": 116.0534525
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1752902,
+          5.3568565
+        ]
+      },
+      "properties": {
+        "name": "36024 – (SBH) Bandar Baru Keningau",
+        "address": "Lot 91, & Lot 92, Ground Floor, Block E1, Bandar Baru Keningau (Phase 1), KM 5 ½, Keningau-Tambunan Road, Kampung Dangulad, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3568565,
+        "longitude": 116.1752902
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0346332,
+          5.8686029
+        ]
+      },
+      "properties": {
+        "name": "36124 – (SBH) Taman Anggerik",
+        "address": "Ground Floor, Lot No S3, Taman Anggerik, Batu 7, Jalan Lintas Sibuga, 90000 Sandakan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.8686029,
+        "longitude": 118.0346332
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0871399,
+          5.9316497
+        ]
+      },
+      "properties": {
+        "name": "36224 – (SBH) Lido Plaza 2",
+        "address": "Ground Floor, Lot 5 & 6, Lido Plaza 2, Jalan Kobusak Nosoob, 88300 Penampang, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9316497,
+        "longitude": 116.0871399
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1277645,
+          6.0323753
+        ]
+      },
+      "properties": {
+        "name": "36525 – (SBH) Alamesra",
+        "address": "Ground Floor, Lot 94 & 95, DBKK No. N-0-6, Block N, Alamesra Plaza Utama (Phase 3), Alamesra, Sulaman – Coastal Highway, Kuala Menggatal, 88400 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0323753,
+        "longitude": 116.1277645
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8259511,
+          5.5976729
+        ]
+      },
+      "properties": {
+        "name": "36625 – (SBH) Bukit Garam Point",
+        "address": "Ground Floor, Lot 3 & 4, Block D, Bukit Garam Point Phase 2, Pekan Kota Kinabatangan, 90200 Kinabatangan, Sabah.",
+        "district": "Kota Kinabatangan",
+        "state": "Sabah",
+        "latitude": 5.5976729,
+        "longitude": 117.8259511
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.5705016,
+          5.8826596
+        ]
+      },
+      "properties": {
+        "name": "36725 – (SBH) Taman Sungai Pandan",
+        "address": "Ground Floor, Lot No 84, Taman Sungai Pandan, Jalan Kolapis, 90100 Beluran, Sabah.",
+        "district": "Beluran",
+        "state": "Sabah",
+        "latitude": 5.8826596,
+        "longitude": 117.5705016
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.08538,
+          5.931283
+        ]
+      },
+      "properties": {
+        "name": "36825 – (SBH) Taman Victory",
+        "address": "Ground Floor, Lot 24, Taman Victory Shophouse, Towering Industrial Centre, Jalan Penampang, 88300 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.931283,
+        "longitude": 116.08538
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0750154,
+          5.9793933
+        ]
+      },
+      "properties": {
+        "name": "37325 – (SBH) Kampung Air",
+        "address": "Ground Floor, Lot 9, Jalan Sentosa, Kampung Air, 88821 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9793933,
+        "longitude": 116.0750154
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1121232,
+          5.9283118
+        ]
+      },
+      "properties": {
+        "name": "37425 – (SBH) Taman Kasigui 3",
+        "address": "Lot No. S3 & S4, Taman Kasigui 3, Jalan Datuk Panglima Banting, Penampang 88300 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 5.9283118,
+        "longitude": 116.1121232
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4665975,
+          6.3172988
+        ]
+      },
+      "properties": {
+        "name": "37525 – (SBH) KB Town Centre",
+        "address": "Lot No. 2, Ground Floor, Jalan Sam Kee, Kota Belud Town Centre, 89150 Kota Belud, Sabah.",
+        "district": "Kota Belud",
+        "state": "Sabah",
+        "latitude": 6.3172988,
+        "longitude": 116.4665975
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1506875,
+          5.3284458
+        ]
+      },
+      "properties": {
+        "name": "38025 – (SBH) Sook New Township",
+        "address": "Ground Floor, Block B, Lot 4 & Lot 5, Sook New Township, Tawau – Keningau Road, 89000 Keningau, Sabah.",
+        "district": "Keningau",
+        "state": "Sabah",
+        "latitude": 5.3284458,
+        "longitude": 116.1506875
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.9721346,
+          5.2778085
+        ]
+      },
+      "properties": {
+        "name": "38125 – (SBH) Tongod New Township",
+        "address": "Ground Floor, Lot 7 & 8, Kedai Sosio Ekonomi Fasa 2, Pekan Baru Tongod, 89330 Tongod, Sabah.",
+        "district": "Tongod",
+        "state": "Sabah",
+        "latitude": 5.2778085,
+        "longitude": 116.9721346
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1692617,
+          6.0268405
+        ]
+      },
+      "properties": {
+        "name": "38225 – (SBH) Taman Sungai Mas",
+        "address": "Ground Floor, B-1 (Lot 8) & B-2 (Lot 9), Block B, Lorong Sungai Mas, Taman Sungai Mas (Shop), Jalan Mansiang Menggatal, 88450 Kota Kinabalu, Sabah.",
+        "district": "Kota Kinabalu",
+        "state": "Sabah",
+        "latitude": 6.0268405,
+        "longitude": 116.1692617
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8292324,
+          5.5840255
+        ]
+      },
+      "properties": {
+        "name": "38525 – (SBH) Taman Kina Mas",
+        "address": "Ground Floor, Lot 2 & 3, Block B, Taman Kina Mas Residence, Jalan Bukit Garam, 90000 Kinabatangan, Sabah.",
+        "district": "Sandakan",
+        "state": "Sabah",
+        "latitude": 5.5840255,
+        "longitude": 117.8292324
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8537536,
+          6.5336036
+        ]
+      },
+      "properties": {
+        "name": "38625 – (SBH)Tandek",
+        "address": "Block A, Lot 12 & Lot 13, Ground Floor, SEDCO Shophouse, Pekan Tandek, Jalan Pekan Tandek, 89100 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.5336036,
+        "longitude": 116.8537536
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7685658,
+          6.4760583
+        ]
+      },
+      "properties": {
+        "name": "38725 – (SBH) Taman T&G",
+        "address": "Ground Floor, Lot A3 & A4, Taman T&G PH3, Jalan Lotong, 89100 Kota Marudu, Sabah.",
+        "district": "Kota Marudu",
+        "state": "Sabah",
+        "latitude": 6.4760583,
+        "longitude": 116.7685658
+      }
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+---
+name: TypeScript Rules
+description: Type safety and code quality standards for the project
+---
+
+# TypeScript & Code Quality
+
+## Type Safety
+
+### Always Use Proper Types
+
+✅ **Good:**
+```tsx
+import { SlideConfig } from '@/app/components/MapLibrary';
+
+const slide: SlideConfig = {
+  id: 'my-slide',
+  title: 'Title',
+  // ...
+};
+```
+
+❌ **Bad:**
+```tsx
+const slide: any = { ... };  // Never use 'any'
+```
+
+### Import Types From:
+- `@/app/components/MapLibrary/types` - All map-related types
+- `SlideConfig` - Slide definitions
+- `MapLibraryConfig` - Main config
+- `LegendConfig` - Legend configuration
+- `SidePanelConfig` - Side panel configuration
+
+## Required Rules
+
+### 1. Unique IDs
+Every slide, layer, and source MUST have a unique ID:
+
+```tsx
+// ✅ Good
+{
+  id: 'hotels-overview',        // Unique slide ID
+  layers: [{
+    id: 'hotels-source',        // Unique source ID
+    layers: [{
+      id: 'hotels-circles',     // Unique layer ID
+    }]
+  }]
+}
+
+// ❌ Bad - Duplicate IDs
+{
+  id: 'hotels',
+  layers: [{
+    id: 'hotels',  // Same as slide ID!
+  }]
+}
+```
+
+### 2. No `any` Types
+```tsx
+// ❌ Never do this
+const data: any = await fetch(...);
+
+// ✅ Do this
+const data: GeoJSON.FeatureCollection = await fetch(...);
+```
+
+### 3. GeoJSON Property Access
+```tsx
+// ✅ Correct - Use Mapbox expressions
+paint: {
+  'circle-color': ['get', 'propertyName']
+}
+
+// ❌ Wrong - Won't work
+paint: {
+  'circle-color': feature.properties.propertyName
+}
+```
+
+## Code Style
+
+### Comments
+Add helpful comments in slide configs:
+
+```tsx
+{
+  id: 'water-scarcity',
+  title: 'Water Scarcity Analysis',
+  // Color states based on scarcity percentage
+  // Red (>20%), Yellow (10-20%), Green (<10%)
+  layers: [...]
+}
+```
+
+### Structure
+Keep slide structure consistent:
+
+```tsx
+{
+  // 1. Metadata
+  id: '...',
+  title: '...',
+  description: '...',
+  duration: 8000,
+  
+  // 2. Camera
+  camera: { ... },
+  
+  // 3. Layers
+  layers: [ ... ],
+  
+  // 4. Legend
+  legend: { ... },
+  
+  // 5. Side Panel
+  sidePanel: { ... },
+}
+```
+
+## Validation
+
+Before using data paths, ensure:
+- ✅ File exists in `public/data/`
+- ✅ Path starts with `/data/`
+- ✅ File is valid GeoJSON/JSON
+- ✅ Properties referenced in expressions exist
+
+## Linting
+
+Run checks:
+```bash
+npm run lint
+```
+
+Fix common issues:
+- Remove unused imports
+- Fix type errors
+- Ensure proper formatting
