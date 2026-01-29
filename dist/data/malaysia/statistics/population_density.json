@@ -1,0 +1,17 @@
+[
+  { "state": "Kuala Lumpur (W.P.)", "people_per_km2": 8157 },
+  { "state": "Putrajaya (W.P.)", "people_per_km2": 2374 },
+  { "state": "Penang", "people_per_km2": 1688 },
+  { "state": "Selangor", "people_per_km2": 879 },
+  { "state": "Malacca", "people_per_km2": 604 },
+  { "state": "Perlis", "people_per_km2": 358 },
+  { "state": "Kedah", "people_per_km2": 226 },
+  { "state": "Johor", "people_per_km2": 211 },
+  { "state": "Negeri Sembilan", "people_per_km2": 181 },
+  { "state": "Kelantan", "people_per_km2": 119 },
+  { "state": "Perak", "people_per_km2": 119 },
+  { "state": "Terengganu", "people_per_km2": 89 },
+  { "state": "Sabah", "people_per_km2": 46 },
+  { "state": "Pahang", "people_per_km2": 44 },
+  { "state": "Sarawak", "people_per_km2": 20 }
+]

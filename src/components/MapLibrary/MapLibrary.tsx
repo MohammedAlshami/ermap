@@ -150,7 +150,7 @@ export const MapLibrary: React.FC<MapLibraryProps> = ({
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-gray-100 z-10 p-6">
           <p className="text-gray-700 font-medium">Mapbox token required</p>
           <p className="mt-2 text-sm text-gray-500 text-center max-w-sm">
-            Set <code className="bg-gray-200 px-1 rounded">NEXT_PUBLIC_MAPBOX_TOKEN</code> in <code className="bg-gray-200 px-1 rounded">.env.local</code> to load the map.
+            Set <code className="bg-gray-200 px-1 rounded">VITE_MAPBOX_TOKEN</code> in <code className="bg-gray-200 px-1 rounded">.env.local</code> to load the map.
           </p>
         </div>
       )}

@@ -1,0 +1,72 @@
+{
+    "visitor_arrivals": {
+      "period": "January-November 2025",
+      "total_arrivals": 3365149,
+      "domestic_arrivals": 2025220,
+      "international_arrivals": 1339929,
+      "total_tourism_receipts_rm_billion": 7.77,
+      "growth_rates": {
+        "total_arrivals": "18.2%",
+        "domestic_arrivals": "18.7%",
+        "international_arrivals": "17.3%",
+        "tourism_receipts": "17.9%"
+      }
+    },
+    "arrivals_yearly_breakdown": {
+      "years": [
+        { "year": 2019, "arrivals_millions": 4.2 },
+        { "year": 2020, "arrivals_millions": 0.37 },
+        { "year": 2021, "arrivals_millions": 0.07 },
+        { "year": 2022, "arrivals_millions": 1.7 },
+        { "year": 2023, "arrivals_millions": 2.8 },
+        { "year": 2024, "arrivals_millions": 3.1 },
+        { "year": 2025, "arrivals_millions": 3.4 }
+      ]
+    },
+    "receipts_yearly_breakdown": {
+      "years": [
+        { "year": 2019, "rm_billion": 9.02 },
+        { "year": 2020, "rm_billion": 0.8 },
+        { "year": 2021, "rm_billion": 0.6 },
+        { "year": 2022, "rm_billion": 4.33 },
+        { "year": 2023, "rm_billion": 5.76 },
+        { "year": 2024, "rm_billion": 7.28 },
+        { "year": 2025, "rm_billion": 7.77 }
+      ]
+    },
+    "weekly_flight_frequency_and_seat_capacity": {
+      "effective_from": "01.01.2026",
+      "international": {
+        "flight_frequency": 163,
+        "seat_capacity": 30189,
+        "number_of_airlines": 12,
+        "number_of_destinations": 15
+      },
+      "domestic": {
+        "flight_frequency": 499,
+        "seat_capacity": 85710,
+        "number_of_airlines": 5,
+        "number_of_destinations": 13
+      }
+    },
+    "sabah_hotel_room_supply": {
+      "5_star": { "hotels": 13, "rooms": 3427 },
+      "4_star": { "hotels": 16, "rooms": 2296 },
+      "3_star": { "hotels": 54, "rooms": 4785 },
+      "2_star": { "hotels": 38, "rooms": 1913 },
+      "1_star": { "hotels": 35, "rooms": 1375 },
+      "orchid_1": { "hotels": 18, "rooms": 401 },
+      "orchid_2": { "hotels": 24, "rooms": 424 },
+      "orchid_3": { "hotels": 16, "rooms": 427 },
+      "no_rating": { "hotels": 483, "rooms": 11954 },
+      "grand_total": { "hotels": 685, "rooms": 26822 }
+    },
+    "sabah_hotel_occupancy_jan_sep_2025": {
+      "overall": 60.2,
+      "5_star": 70.8,
+      "4_star": 61.5,
+      "3_star": 60.6,
+      "2_star_and_below": 39.9
+    }
+  }
+  
