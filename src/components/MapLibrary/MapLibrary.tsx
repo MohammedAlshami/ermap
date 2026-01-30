@@ -51,6 +51,14 @@ export const MapLibrary: React.FC<MapLibraryProps> = ({
       pitch: config.initialCamera?.pitch || 0,
       bearing: config.initialCamera?.bearing || 0,
       bounds: config.bounds,
+      transformRequest: (url) => {
+        if (url.includes('api.mapbox.com') || url.includes('tiles.mapbox.com') || url.includes('events.mapbox.com')) {
+          const apiOrigin = typeof window !== 'undefined' && window.location?.origin ? window.location.origin : '';
+          if (!apiOrigin) return {};
+          return { url: `${apiOrigin}/api/mapbox-proxy?url=${encodeURIComponent(url)}` };
+        }
+        return {};
+      },
     });
 
     // Add controls

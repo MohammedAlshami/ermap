@@ -14,8 +14,10 @@ import { Route as ExamplesRouteImport } from './app/examples'
 import { Route as DataRouteImport } from './app/data'
 import { Route as IndexRouteImport } from './app/index'
 import { Route as ExamplesIndexRouteImport } from './app/examples/index'
+import { Route as DataIndexRouteImport } from './app/data/index'
 import { Route as ExamplesBasicRouteImport } from './app/examples/basic'
 import { Route as Examples3dRouteImport } from './app/examples/3d'
+import { Route as DataIdRouteImport } from './app/data/$id'
 
 const MapsRoute = MapsRouteImport.update({
   id: '/maps',
@@ -42,6 +44,11 @@ const ExamplesIndexRoute = ExamplesIndexRouteImport.update({
   path: '/',
   getParentRoute: () => ExamplesRoute,
 } as any)
+const DataIndexRoute = DataIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => DataRoute,
+} as any)
 const ExamplesBasicRoute = ExamplesBasicRouteImport.update({
   id: '/basic',
   path: '/basic',
@@ -52,32 +59,42 @@ const Examples3dRoute = Examples3dRouteImport.update({
   path: '/3d',
   getParentRoute: () => ExamplesRoute,
 } as any)
+const DataIdRoute = DataIdRouteImport.update({
+  id: '/$id',
+  path: '/$id',
+  getParentRoute: () => DataRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/data': typeof DataRoute
+  '/data': typeof DataRouteWithChildren
   '/examples': typeof ExamplesRouteWithChildren
   '/maps': typeof MapsRoute
+  '/data/$id': typeof DataIdRoute
   '/examples/3d': typeof Examples3dRoute
   '/examples/basic': typeof ExamplesBasicRoute
+  '/data/': typeof DataIndexRoute
   '/examples/': typeof ExamplesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/data': typeof DataRoute
   '/maps': typeof MapsRoute
+  '/data/$id': typeof DataIdRoute
   '/examples/3d': typeof Examples3dRoute
   '/examples/basic': typeof ExamplesBasicRoute
+  '/data': typeof DataIndexRoute
   '/examples': typeof ExamplesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/data': typeof DataRoute
+  '/data': typeof DataRouteWithChildren
   '/examples': typeof ExamplesRouteWithChildren
   '/maps': typeof MapsRoute
+  '/data/$id': typeof DataIdRoute
   '/examples/3d': typeof Examples3dRoute
   '/examples/basic': typeof ExamplesBasicRoute
+  '/data/': typeof DataIndexRoute
   '/examples/': typeof ExamplesIndexRoute
 }
 export interface FileRouteTypes {
@@ -87,25 +104,36 @@ export interface FileRouteTypes {
     | '/data'
     | '/examples'
     | '/maps'
+    | '/data/$id'
     | '/examples/3d'
     | '/examples/basic'
+    | '/data/'
     | '/examples/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/data' | '/maps' | '/examples/3d' | '/examples/basic' | '/examples'
+  to:
+    | '/'
+    | '/maps'
+    | '/data/$id'
+    | '/examples/3d'
+    | '/examples/basic'
+    | '/data'
+    | '/examples'
   id:
     | '__root__'
     | '/'
     | '/data'
     | '/examples'
     | '/maps'
+    | '/data/$id'
     | '/examples/3d'
     | '/examples/basic'
+    | '/data/'
     | '/examples/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  DataRoute: typeof DataRoute
+  DataRoute: typeof DataRouteWithChildren
   ExamplesRoute: typeof ExamplesRouteWithChildren
   MapsRoute: typeof MapsRoute
 }
@@ -147,6 +175,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ExamplesIndexRouteImport
       parentRoute: typeof ExamplesRoute
     }
+    '/data/': {
+      id: '/data/'
+      path: '/'
+      fullPath: '/data/'
+      preLoaderRoute: typeof DataIndexRouteImport
+      parentRoute: typeof DataRoute
+    }
     '/examples/basic': {
       id: '/examples/basic'
       path: '/basic'
@@ -161,8 +196,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof Examples3dRouteImport
       parentRoute: typeof ExamplesRoute
     }
+    '/data/$id': {
+      id: '/data/$id'
+      path: '/$id'
+      fullPath: '/data/$id'
+      preLoaderRoute: typeof DataIdRouteImport
+      parentRoute: typeof DataRoute
+    }
   }
 }
+
+interface DataRouteChildren {
+  DataIdRoute: typeof DataIdRoute
+  DataIndexRoute: typeof DataIndexRoute
+}
+
+const DataRouteChildren: DataRouteChildren = {
+  DataIdRoute: DataIdRoute,
+  DataIndexRoute: DataIndexRoute,
+}
+
+const DataRouteWithChildren = DataRoute._addFileChildren(DataRouteChildren)
 
 interface ExamplesRouteChildren {
   Examples3dRoute: typeof Examples3dRoute
@@ -182,7 +236,7 @@ const ExamplesRouteWithChildren = ExamplesRoute._addFileChildren(
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  DataRoute: DataRoute,
+  DataRoute: DataRouteWithChildren,
   ExamplesRoute: ExamplesRouteWithChildren,
   MapsRoute: MapsRoute,
 }
