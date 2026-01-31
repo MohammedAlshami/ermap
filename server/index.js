@@ -172,6 +172,37 @@ app.get('/mapbox-proxy', async (req, res) => {
   }
 });
 
+const YAHOO_CHART_ORIGIN = 'https://query1.finance.yahoo.com';
+
+// GET /yahoo-chart?symbol=...&interval=...&range=... – proxy Yahoo Finance chart API (avoids CORS, keeps key server-side)
+app.get('/yahoo-chart', async (req, res) => {
+  const symbol = req.query.symbol;
+  if (!symbol || typeof symbol !== 'string' || !/^[A-Z0-9.-]+$/i.test(symbol.trim())) {
+    return res.status(400).json({ error: 'Missing or invalid symbol' });
+  }
+  const interval = (req.query.interval && String(req.query.interval)) || '1d';
+  const range = (req.query.range && String(req.query.range)) || '3mo';
+  const url = `${YAHOO_CHART_ORIGIN}/v8/finance/chart/${encodeURIComponent(symbol.trim())}?interval=${encodeURIComponent(interval)}&range=${encodeURIComponent(range)}`;
+  try {
+    const resp = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; ErmapStockChart/1.0)',
+        Accept: 'application/json',
+      },
+    });
+    if (!resp.ok) {
+      res.status(resp.status).end();
+      return;
+    }
+    const json = await resp.json();
+    res.setHeader('Content-Type', 'application/json');
+    res.json(json);
+  } catch (err) {
+    console.error('yahoo-chart proxy error', err);
+    res.status(502).json({ error: 'Chart proxy failed' });
+  }
+});
+
 function streamToBuffer(stream) {
   return new Promise((resolve, reject) => {
     const chunks = [];

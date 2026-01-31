@@ -1,9 +1,14 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { useState, useEffect } from 'react';
+import {
+  Card,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '~/components/ui/card';
 
-export const Route = createFileRoute('/data/')({
-  component: DataIndexPage,
-});
+const CARD_IMAGE =
+  'https://images.ctfassets.net/fi0zmnwlsnja/5kamkNPoauwtkBjgpl2jJW/d90b3d7716227313423422f01bde001c/viz-libraries-07.png?w=1296&h=810&q=50&fm=png';
 
 const PAGE_BG = '#0c0c0c';
 
@@ -19,6 +24,10 @@ interface DataMapping {
     geojson?: Record<string, DataMappingR2Entry>;
   };
 }
+
+export const Route = createFileRoute('/data/')({
+  component: DataIndexPage,
+});
 
 function DataIndexPage() {
   const [dataMapping, setDataMapping] = useState<DataMapping | null>(null);
@@ -57,84 +66,79 @@ function DataIndexPage() {
     : [];
 
   return (
-    <div
-      className="flex w-full flex-1 min-h-0"
-      style={{ backgroundColor: PAGE_BG }}
-    >
-      <div className="flex-1 min-w-0 overflow-auto py-16 px-6">
-        <div className="w-full">
-          <h1 className="text-3xl font-bold text-white mb-2 font-phudu">
+    <section className="py-20 px-6" style={{ backgroundColor: PAGE_BG }}>
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-12">
+          <h1 className="text-3xl font-bold text-white mb-3">
             Data
           </h1>
-          <p className="text-gray-400 mb-10 font-phudu">
-            Datasets loaded from Cloudflare R2. Mapping and metadata in <code className="text-gray-500 bg-gray-800/50 px-1.5 py-0.5 rounded text-sm">public/data-mapping.json</code>.
+          <p className="text-white/80 text-lg max-w-xl mx-auto">
+            Datasets loaded from Cloudflare R2. Mapping and metadata in data-mapping.json.
           </p>
-
-          {r2Entries.length > 0 ? (
-            <section className="mb-10">
-              <h2 className="text-lg font-semibold text-gray-500 uppercase tracking-wide mb-4 font-phudu">
-                R2 files
-              </h2>
-              <div className="rounded-lg bg-gray-900/80 border border-gray-800 overflow-hidden font-phudu">
-                <ul className="divide-y divide-gray-800">
-                  {r2Entries.map(([slug, entry]) => {
-                    const href = entry.id ? `/data/${entry.id}` : undefined;
-                    const content = (
-                      <>
-                        <div className="min-w-0 flex items-center gap-3 flex-wrap">
-                          <span className="text-white font-medium font-phudu">{entry.name}</span>
-                          <span className="text-xs text-gray-500 font-mono font-phudu">{entry.format}</span>
-                          {r2Loaded[slug]?.features != null && (
-                            <span className="text-xs font-medium text-[#c5d86d] font-phudu">
-                              Loaded: {r2Loaded[slug].features} features
-                            </span>
-                          )}
-                          {r2Loaded[slug]?.error && (
-                            <span className="text-xs font-medium text-red-400 font-phudu">
-                              {r2Loaded[slug].error}
-                            </span>
-                          )}
-                        </div>
-                        {href && (
-                          <span className="text-sm text-[#c5d86d] font-phudu">View →</span>
-                        )}
-                      </>
-                    );
-                    return (
-                      <li key={slug}>
-                        {href ? (
-                          <Link
-                            to="/data/$id"
-                            params={{ id: entry.id! }}
-                            className="flex flex-wrap items-center justify-between gap-3 px-5 py-4 hover:bg-gray-800/50 transition cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#c5d86d] focus:ring-inset block"
-                          >
-                            {content}
-                          </Link>
-                        ) : (
-                          <div className="flex flex-wrap items-center justify-between gap-3 px-5 py-4 font-phudu">
-                            {content}
-                          </div>
-                        )}
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            </section>
-          ) : (
-            <p className="text-gray-500 font-phudu">No R2 entries in data-mapping.json (malaysia.geojson with r2Key).</p>
-          )}
-
-          <div className="mt-12 pt-8 border-t border-gray-800">
-            <Link
-              to="/maps"
-              className="inline-flex items-center gap-2 text-[#c5d86d] hover:text-[#b8cc5a] font-medium font-phudu"
-            >
-              View these data on the map →
-            </Link>
-          </div>
         </div>
+
+        {r2Entries.length > 0 ? (
+          <div className="grid grid-cols-1 gap-6">
+            {r2Entries.map(([slug, entry]) => {
+              const href = entry.id ? `/data/${entry.id}` : undefined;
+              const meta = r2Loaded[slug];
+              return (
+                <div key={slug}>
+                  {href ? (
+                    <Link to="/data/$id" params={{ id: entry.id! }} className="group block h-full">
+                      <Card className="h-full border-border/50 overflow-hidden transition-all duration-200 group-hover:border-[#c5d86d] bg-[#C5D86D] pt-0">
+                        <div className="relative h-44 w-full overflow-hidden">
+                          <img
+                            src={CARD_IMAGE}
+                            alt=""
+                            className="h-full w-full object-cover"
+                          />
+                        </div>
+                        <CardHeader>
+                          <CardTitle className="text-gray-900 group-hover:text-gray-800 transition-colors">
+                            {entry.name}
+                          </CardTitle>
+                          <CardDescription className="text-gray-800">
+                            {entry.format}
+                            {meta?.features != null && (
+                              <span className="block mt-1">
+                                {meta.features} features
+                              </span>
+                            )}
+                            {meta?.error && (
+                              <span className="block mt-1 text-red-700">
+                                {meta.error}
+                              </span>
+                            )}
+                          </CardDescription>
+                        </CardHeader>
+                      </Card>
+                    </Link>
+                  ) : (
+                    <Card className="h-full border-border/50 bg-[#C5D86D] pt-0">
+                      <div className="relative h-44 w-full overflow-hidden">
+                        <img
+                          src={CARD_IMAGE}
+                          alt=""
+                          className="h-full w-full object-cover"
+                        />
+                      </div>
+                      <CardHeader>
+                        <CardTitle className="text-gray-900">{entry.name}</CardTitle>
+                        <CardDescription className="text-gray-800">
+                          {entry.format}
+                        </CardDescription>
+                      </CardHeader>
+                    </Card>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <p className="text-white/70 text-center">No R2 entries in data-mapping.json.</p>
+        )}
       </div>
-    </div>
+    </section>
   );
 }

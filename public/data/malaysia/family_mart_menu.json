@@ -1,0 +1,301 @@
+{
+  "categories": [
+    {
+      "name": "Bento",
+      "items": [
+        { "name": "Golden Salted Egg Macaroni & Cheese (1s)", "price": "RM16.20" }
+      ]
+    },
+    {
+      "name": "Bread",
+      "items": [
+        { "name": "Pizza Sausage Bun (1s)", "price": "RM4.10" },
+        { "name": "Triple Chocolate Melon Pan", "price": "RM5.60" },
+        { "name": "Butter Sugar Bun (1s)", "price": "RM3.50" },
+        { "name": "Sambal Ikan Bilis Bun XL (1s)", "price": "RM4.80" },
+        { "name": "Parmesan Chicken Slice", "price": "RM4.70" },
+        { "name": "Cranberry Cream Cheese Oyaki Bun XL (1s)", "price": "RM5.00" },
+        { "name": "Buttermilk Bun (4 in 1 pack)", "price": "RM7.40" },
+        { "name": "Cheezy Bun XL (1s)", "price": "RM3.00" },
+        { "name": "Custard Oyaki Bun XL (1s)", "price": "RM4.30" },
+        { "name": "Hokkaido Melon Pan", "price": "RM5.50" },
+        { "name": "Sausage Cheese Bun XL (1s)", "price": "RM4.80" },
+        { "name": "Chocolate Chip Cream Cheese Pan", "price": "RM5.50" },
+        { "name": "Tuna Mayo Bun (1s)", "price": "RM3.50" },
+        { "name": "Chicken Floss Mayo Custard Oyaki Bun XL (1s)", "price": "RM4.10" },
+        { "name": "Honey Mustard Chicken Slice Bun (1pc)", "price": "RM4.70" },
+        { "name": "Japanese Cheese Pan", "price": "RM5.90" },
+        { "name": "Pandan Coconut Oyaki Bun XL (1s)", "price": "RM3.80" },
+        { "name": "Mini Sugar Bomboloni (5 in 1)", "price": "RM4.20" },
+        { "name": "Mini Vienna (2 in 1)", "price": "RM3.60" },
+        { "name": "Pizza Bun (1s)", "price": "RM3.50" },
+        { "name": "Red Bean Oyaki Bun XL (1s)", "price": "RM3.80" }
+      ]
+    },
+    {
+      "name": "Coffee",
+      "items": [
+        { "name": "Iced Latte (1cp)", "price": "RM8.30" },
+        { "name": "Iced Caramel Latte (1cp)", "price": "RM9.50" },
+        { "name": "Large Hot Cappuccino (1cp)", "price": "RM8.30" },
+        { "name": "Iced Pandan Kokuto Latte (1cp)", "price": "RM10.70" },
+        { "name": "Large Hot Caramel Latte (1cp)", "price": "RM9.50" },
+        { "name": "Mocha Cookie Latte (1cp)", "price": "RM10.70" },
+        { "name": "Large Hot Pandan Kokuto Latte (1cp)", "price": "RM10.70" },
+        { "name": "Kopi Ais (1cp)", "price": "RM5.90" },
+        { "name": "Large Hot Americano (1cp)", "price": "RM7.10" },
+        { "name": "Large Hot Latte (1cp)", "price": "RM8.30" },
+        { "name": "Iced Hazelnut Latte (1cp)", "price": "RM9.50" },
+        { "name": "Brown Sugar Bubble Latte (1cp)", "price": "RM9.50" },
+        { "name": "Iced Americano (1cp)", "price": "RM7.10" }
+      ]
+    },
+    {
+      "name": "Desserts & Cakes",
+      "items": [
+        { "name": "Mango Sando (1s)", "price": "RM8.60" },
+        { "name": "Mochi Puff (Original)", "price": "RM6.40" },
+        { "name": "Cream Krone (1s)", "price": "RM6.70" },
+        { "name": "Cream Puff (Original) (1pc)", "price": "RM6.40" },
+        { "name": "Chocolate Chip Soft Cookie (1s)", "price": "RM4.00" },
+        { "name": "Strawberry Parfait (1s)", "price": "RM8.20" },
+        { "name": "Chocolate Cheese Pudding w/ Oreo Crumbs (1cp)", "price": "RM7.80" },
+        { "name": "Chocolate Mousse (1cp)", "price": "RM9.00" },
+        { "name": "Strawberry Pocket Sando (1s)", "price": "RM3.80" },
+        { "name": "Souffle Pudding (1cp)", "price": "RM11.20" },
+        { "name": "Chocolate Lava", "price": "RM7.80" },
+        { "name": "Milk Chocolate Cream Bun (1s)", "price": "RM6.40" },
+        { "name": "Hanjuku Cheese (Original)", "price": "RM4.70" },
+        { "name": "Cheese Pudding (1cp)", "price": "RM8.30" },
+        { "name": "Strawberry Sando", "price": "RM9.80" },
+        { "name": "Original Pudding", "price": "RM7.60" },
+        { "name": "Cookies & Cream Soft Cookie (1s)", "price": "RM3.50" },
+        { "name": "Hokkaido Milk Cream Bun (1s)", "price": "RM5.90" },
+        { "name": "Mochi Puff (Parmesan) (1pc)", "price": "RM7.10" },
+        { "name": "Chocolate Peanut Butter Soft Cookie (1s)", "price": "RM4.30" }
+      ]
+    },
+    {
+      "name": "Collection Tea",
+      "items": [
+        { "name": "Famimaru Jasmine Tea 600ml", "price": "RM7.50" },
+        { "name": "Famimaru Barley Tea 600ml", "price": "RM7.50" },
+        { "name": "Famimaru Oolong 600ml", "price": "RM7.50" },
+        { "name": "Famimaru Green Tea 600ml", "price": "RM7.50" }
+      ]
+    },
+    {
+      "name": "Frappe",
+      "items": [
+        { "name": "Milk Cookies Frappe", "price": "RM11.40" },
+        { "name": "Milk Chocolate Brownies Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Coffee Cookies Frappe", "price": "RM11.40" },
+        { "name": "Coffee Green Tea Cookies & Cream Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Non Dairy Coconut Frappe (1s)", "price": "RM11.40" },
+        { "name": "Milk Caramel Milkcandy Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Coffee Coconut Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Non Dairy Strawberry Pudding Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Milk Chocolate Banana Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Coffee Caramel Milkcandy Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Milk Mixberries Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Cheesecake Yoghurt Frappe", "price": "RM11.90" },
+        { "name": "Watermelon Lychee Yoghurt Frappe", "price": "RM11.90" },
+        { "name": "Chocolate Frappe", "price": "RM11.40" },
+        { "name": "Mocha Frappe", "price": "RM11.40" },
+        { "name": "Milk Strawberry Pudding Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Mixberries Yoghurt Frappe (1cp)", "price": "RM11.90" },
+        { "name": "Milk Green Tea Cookies & Cream Frappe (1cp)", "price": "RM11.40" },
+        { "name": "Chocolate Cookies Frappe", "price": "RM11.40" },
+        { "name": "Coffee Chocolate Brownie Frappe (1cp)", "price": "RM11.40" }
+      ]
+    },
+    {
+      "name": "Fresh Drinks",
+      "items": [
+        { "name": "Brown Sugar Bubble Milk Tea (1cp)", "price": "RM11.00" },
+        { "name": "Large Hot Twinings Passionfruit, Mango & Orange Tea (1cp)", "price": "RM5.90" },
+        { "name": "Iced Mixed Berries Chocolate (1cp)", "price": "RM10.70" },
+        { "name": "Sparkling Yuzu Green Tea (1cp)", "price": "RM8.30" },
+        { "name": "Iced Matcha Latte (1cp)", "price": "RM11.00" },
+        { "name": "Melon Milk (1cp)", "price": "RM8.30" },
+        { "name": "Iced Tea (1cp)", "price": "RM5.90" },
+        { "name": "Large Hot Matcha Latte (1cp)", "price": "RM11.00" },
+        { "name": "Large Hot Chocolate (1cp)", "price": "RM9.80" },
+        { "name": "Iced Chocolate (1cp)", "price": "RM9.80" },
+        { "name": "Chocolate Cookie Latte (1cp)", "price": "RM10.70" },
+        { "name": "Jelly Bubble Lychee Strawberry Tea (1cp)", "price": "RM8.30" },
+        { "name": "Large Hot Tea (1cp)", "price": "RM5.90" },
+        { "name": "Iced Milk Tea (1cp)", "price": "RM8.30" },
+        { "name": "Large Hot Mixed Berries Chocolate (1cp)", "price": "RM10.70" },
+        { "name": "Large Hot Milk Tea (1cp)", "price": "RM8.30" },
+        { "name": "Cherry Blossom Ade (1cp)", "price": "RM9.50" },
+        { "name": "Brown Sugar Bubble Milk (1cp)", "price": "RM8.60" },
+        { "name": "Large Hot Twinings Earl Grey Tea (1cp)", "price": "RM5.90" },
+        { "name": "Fuji Apple Cooler (1cp)", "price": "RM8.30" }
+      ]
+    },
+    {
+      "name": "Hot Snacks",
+      "items": [
+        { "name": "Blueberry Cream Cheese Bagel (1s)", "price": "RM9.50" },
+        { "name": "Salmon Bar (1 Pc)", "price": "RM3.80" },
+        { "name": "Korean Cheesy Crispy Chiki (1pc)", "price": "RM7.80" },
+        { "name": "Chocolate Crookie (1s)", "price": "RM9.50" },
+        { "name": "Ayam Percik Curry Puff (1s)", "price": "RM3.50" },
+        { "name": "Strawberry Cream Cheese Charcoal Bagel (1s)", "price": "RM9.50" },
+        { "name": "Salted Egg Crispy Chiki (1pc)", "price": "RM7.10" },
+        { "name": "Double Cheese Corn Sausage (1pc)", "price": "RM9.50" },
+        { "name": "Onion Cream Cheese Bagel (1s)", "price": "RM9.50" },
+        { "name": "Spicy Crispy Chiki (1 pc)", "price": "RM6.60" },
+        { "name": "Flaming Double Cheese Corn Sausage (1pc)", "price": "RM9.50" },
+        { "name": "Spicy Shoyu Crispy Chiki (1pc)", "price": "RM7.10" },
+        { "name": "Cheese Fish Tofu (1 pc)", "price": "RM3.80" },
+        { "name": "Cheese Sausage (1 pc)", "price": "RM4.70" },
+        { "name": "Crispy Chiki (Boneless) (1 pc)", "price": "RM6.60" },
+        { "name": "Potato Corn Sausage (1pc)", "price": "RM11.90" },
+        { "name": "Spicy Italian Sausage (1s)", "price": "RM4.70" },
+        { "name": "Truffle Cream Cheese Cheddar Bagel (1s)", "price": "RM9.50" },
+        { "name": "Takoyaki 1cp (5pcs)", "price": "RM11.40" },
+        { "name": "Triple Cheese Corn Sausage (1pc)", "price": "RM10.70" },
+        { "name": "Chicken Slice Cheese Croissant Sandwich", "price": "RM11.90" },
+        { "name": "Black Pepper Sausage (1 pc)", "price": "RM4.70" }
+      ]
+    },
+    {
+      "name": "Meals",
+      "items": [
+        { "name": "Golden Salted Egg Chahan (1s)", "price": "RM8.30" },
+        { "name": "Original Snack Bowl", "price": "RM9.50" },
+        { "name": "Korean Cheese Ramen", "price": "RM9.00" },
+        { "name": "Dry Creamy Korean Cheese Ramen", "price": "RM10.20" },
+        { "name": "Spicy Shoyu Ramen (1s)", "price": "RM16.20" },
+        { "name": "Dried Korean Cheese Ramen", "price": "RM9.00" },
+        { "name": "Kimchi Fried Rice (1s)", "price": "RM11.90" },
+        { "name": "Cheese Baked Rice with Chicken Bolognese (1s)", "price": "RM13.80" },
+        { "name": "Gyudon (1s)", "price": "RM14.30" },
+        { "name": "Tom Yum Snack Bowl", "price": "RM9.50" },
+        { "name": "Double Mee Goreng Ori (1s)", "price": "RM11.40" },
+        { "name": "Mee Goreng Ori (1s)", "price": "RM6.60" },
+        { "name": "Dry Chili Pan Mee w Onsen Egg (1s)", "price": "RM13.80" },
+        { "name": "Korean Cheese Ramen Set", "price": "RM12.60" },
+        { "name": "Wan Tan Mee (1s)", "price": "RM10.70" },
+        { "name": "Garlic Chahan (1s)", "price": "RM6.70" },
+        { "name": "Tom Yum Dinner Bowl", "price": "RM13.40" },
+        { "name": "Kampung Fried Rice (1s)", "price": "RM8.30" },
+        { "name": "Buttermilk Popcorn Chicken Fettuccine (1pc)", "price": "RM16.70" },
+        { "name": "Tom Yum Bihun Bowl", "price": "RM10.20" }
+      ]
+    },
+    {
+      "name": "Milk & Yoghurt",
+      "items": [
+        { "name": "Farm Fresh UHT Milk Kurma 200ml", "price": "RM3.60" },
+        { "name": "Dutch Lady UHT Core Chocolate 200ml", "price": "RM3.50" },
+        { "name": "Farm Fresh UHT Milk Chocolate 200ml", "price": "RM3.40" },
+        { "name": "Binggrae Strawberry Milk 200ml", "price": "RM7.30" },
+        { "name": "Betagen Cultured Milk Strawberry Flavor 300ml", "price": "RM5.60" },
+        { "name": "Betagen Cultured Milk Pineapple Flavor 300ml", "price": "RM5.60" },
+        { "name": "Binggrae Banana Milk 200ml", "price": "RM7.30" },
+        { "name": "Marigold Hl Milk – Plain 946ml", "price": "RM13.60" },
+        { "name": "Marigold Low Fat Yogurt Natural 130g", "price": "RM4.00" },
+        { "name": "Dutch Lady UHT Full Cream 1L", "price": "RM11.40" },
+        { "name": "Farm Fresh Milk Chocolate 1L", "price": "RM12.80" },
+        { "name": "Farm Fresh UHT Fresh Milk 200ml", "price": "RM3.40" },
+        { "name": "Farm Fresh Yogurt Drink Fruit Punch 200ml", "price": "RM4.20" },
+        { "name": "Dutch Lady UHT Core Full Cream 200ml", "price": "RM3.50" },
+        { "name": "Farm Fresh Greek Yogurt Mulberries & Straw 120g", "price": "RM5.90" },
+        { "name": "Farm Fresh Yogurt Drink Strawberry 700ml", "price": "RM9.10" },
+        { "name": "Betagen Cultured Milk Drink Original 0% Fat 700ml", "price": "RM11.40" }
+      ]
+    },
+    {
+      "name": "Onigiri & Sushi",
+      "items": [
+        { "name": "Cheesy Tamagoyaki Onigiri (1s)", "price": "RM5.00" },
+        { "name": "Tobiko Mayo Onigiri (1 Pc)", "price": "RM6.60" },
+        { "name": "Thai Basil Chicken Onigiri (1s)", "price": "RM5.00" },
+        { "name": "Mixed Inari Sushi Set (4pcs)", "price": "RM11.00" },
+        { "name": "Miso Salmon Onigiri (1s)", "price": "RM5.90" },
+        { "name": "Salted Salmon Onigiri (1 Pc)", "price": "RM5.90" },
+        { "name": "Kimchi Cheese Onigiri (1pc)", "price": "RM6.50" },
+        { "name": "Futomaki Rolled Sushi (1pc)", "price": "RM6.20" },
+        { "name": "Yakiniku Onigiri (1 Pc)", "price": "RM7.10" },
+        { "name": "Chuka Iidako Onigiri (1 pc)", "price": "RM6.60" },
+        { "name": "Salmon Mentai Onigiri (1s)", "price": "RM6.20" },
+        { "name": "Volcano Seafood Sushi Roll (4pcs)", "price": "RM15.50" },
+        { "name": "Jjajang Chicken Onigiri (1s)", "price": "RM4.40" },
+        { "name": "Spicy Tuna Onigiri (1 pc)", "price": "RM5.90" },
+        { "name": "Crabstick Mayo Onigiri (1 pc)", "price": "RM5.50" },
+        { "name": "Spicy Crispy Chiki Onigiri Sandwich", "price": "RM10.00" },
+        { "name": "Unagi Onigiri (1 Pc)", "price": "RM7.80" },
+        { "name": "Grilled Salmon Onigiri (1 pc)", "price": "RM5.90" },
+        { "name": "Teriyaki Chicken Onigiri (1 pc)", "price": "RM5.40" }
+      ]
+    },
+    {
+      "name": "Ready-To-Drink",
+      "items": [
+        { "name": "Captain Dolphin Konjac Jelly Grape 130g", "price": "RM3.10" },
+        { "name": "Rokeby Farm Smoothie Banana 425ml", "price": "RM19.10" },
+        { "name": "Nescafe Iced Latte 500ml", "price": "RM8.30" },
+        { "name": "Tropicana Twister Orange 355ml", "price": "RM4.70" },
+        { "name": "VSoy Multi-Grain 200ml", "price": "RM2.40" },
+        { "name": "Nescafe Iced Cappuccino 500ml", "price": "RM8.30" },
+        { "name": "Sprite Lemon+ 500ml", "price": "RM4.70" },
+        { "name": "FamilyMart Natural Mineral Water 1.5L", "price": "RM4.30" },
+        { "name": "Rokeby Farm Smoothie Dutch Chocolate 425ml", "price": "RM19.10" },
+        { "name": "Nongfu Spring Peach Oolong Tea 500ml", "price": "RM6.00" },
+        { "name": "Yeos Chrysanthemum Tea 380ml", "price": "RM3.20" },
+        { "name": "Coca-Cola Rasa Asli 500ml", "price": "RM4.70" },
+        { "name": "Nescafe Original Can 240ml", "price": "RM5.40" },
+        { "name": "UCC Black Muto Full Body Recap Can 375ml", "price": "RM11.40" },
+        { "name": "Spritzer Mineral Water 1.5L", "price": "RM5.00" },
+        { "name": "UCC Beans & Roasters Caffe Latte 375g", "price": "RM12.10" },
+        { "name": "Vida C Blackcurrant 325ml", "price": "RM4.30" },
+        { "name": "Hiive Pink Guava Juice 350ml", "price": "RM3.50" },
+        { "name": "Samyang Brown Sugar Latte Cup 250ml", "price": "RM10.80" },
+        { "name": "Spritzer Tinge Mango Apple 450ml", "price": "RM3.10" },
+        { "name": "Milo Activ-Go UHT 200ml", "price": "RM3.50" },
+        { "name": "Captain Dolphin Konjac Jelly Peach 130g", "price": "RM3.10" },
+        { "name": "Yeos Soya 380ml", "price": "RM3.20" },
+        { "name": "Spritzer Mineral Water 600ml", "price": "RM3.00" },
+        { "name": "Vida C Lemon 325ml", "price": "RM4.30" },
+        { "name": "F&N Seasons Ice Lemon Tea 380ml", "price": "RM3.60" },
+        { "name": "Nongfu Spring Pomelo Green Tea 500ml", "price": "RM6.00" },
+        { "name": "Red Bull Gold Can 250ml", "price": "RM5.10" },
+        { "name": "Hiive Red Grape & Blackcurrant Juice 350ml", "price": "RM3.50" },
+        { "name": "Paldo Pororo Grape 235ml", "price": "RM7.20" }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        { "name": "Triple Egg Mayo Sandwich", "price": "RM8.60" },
+        { "name": "Kani Mayo Egg Sandwich", "price": "RM7.40" },
+        { "name": "Chicken Slice & Cheese Sandwich", "price": "RM8.30" },
+        { "name": "Egg Mayo Sandwich", "price": "RM6.40" },
+        { "name": "Spicy Chicken Wrap (1pc)", "price": "RM10.70" },
+        { "name": "Chicken Shawarma Wrap (1s)", "price": "RM10.70" },
+        { "name": "Smoky BBQ Chicken Wrap (1s)", "price": "RM10.70" }
+      ]
+    },
+    {
+      "name": "Sofuto & Ice-Cream",
+      "items": [
+        { "name": "Imuraya Mochi Mochi Chocolate & Chocolate 2x38g", "price": "RM8.40" },
+        { "name": "Marunaga Macha Monaka 170ml", "price": "RM10.10" },
+        { "name": "Lotte Mona Ou Vanilla 160ml", "price": "RM10.10" },
+        { "name": "Lotte Mona Ou Macha 160ml", "price": "RM10.10" },
+        { "name": "Nestle Kit Kat Stick 85ml", "price": "RM6.80" },
+        { "name": "Meiji Esseru Super Cup Vanilla 200ml", "price": "RM10.10" },
+        { "name": "Meiji Esseru Super Cup Chocolate 200ml", "price": "RM10.10" },
+        { "name": "Drumstick Vanilla Classic 110ml", "price": "RM4.20" },
+        { "name": "Imuraya Taiyaki Ice 130ml", "price": "RM10.10" },
+        { "name": "Imuraya Macha Azuki Monaka 140ml", "price": "RM10.10" },
+        { "name": "Nestle Oreo Stick 92g", "price": "RM6.80" },
+        { "name": "Lotte Yukimi Daifuku Vanilla 2x47ml", "price": "RM10.10" },
+        { "name": "Futaba Dandy Choco Monaka 160ml", "price": "RM10.10" }
+      ]
+    }
+  ]
+}

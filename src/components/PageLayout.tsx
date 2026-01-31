@@ -1,5 +1,6 @@
 import { Link } from '@tanstack/react-router';
 import { ReactNode } from 'react';
+import { Navbar } from '~/components/Navbar';
 
 const PAGE_BG = '#0c0c0c';
 
@@ -11,7 +12,8 @@ interface PageLayoutProps {
 
 export function PageLayout({ children }: PageLayoutProps) {
   return (
-    <div className={`min-h-screen flex flex-col bg-[${PAGE_BG}] font-phudu relative`} style={{ backgroundColor: PAGE_BG }}>
+    <div className="min-h-screen flex flex-col font-phudu relative" style={{ backgroundColor: PAGE_BG }}>
+      <Navbar />
       <main className="flex-1 flex flex-col min-h-0">{children}</main>
 
       {/* Footer - same on all pages */}

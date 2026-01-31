@@ -69,6 +69,39 @@
           }
         }
       },
+      "family_mart": {
+        "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+        "r2Key": "uploads/family_mart.geojson",
+        "name": "Family Mart stores",
+        "format": "GeoJSON",
+        "metadata": {
+          "rootType": "FeatureCollection",
+          "access": {
+            "features": "data.features",
+            "byState": "data.features.filter(f => f.properties.state === 'Kuala Lumpur')",
+            "byName": "data.features.find(f => f.properties.name === '...')"
+          },
+          "structure": {
+            "type": "FeatureCollection",
+            "features": [{
+              "type": "Feature",
+              "geometry": { "type": "Point", "coordinates": "[lng, lat]" },
+              "properties": {
+                "name": "string",
+                "address": "string",
+                "state": "string",
+                "operating_hour": "string",
+                "temp_close_date": "array"
+              }
+            }]
+          },
+          "filter": {
+            "byName": "feature.properties.name",
+            "byState": "feature.properties.state",
+            "byAddress": "feature.properties.address"
+          }
+        }
+      },
       "malaysia_district": {
         "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
         "name": "Malaysia districts",

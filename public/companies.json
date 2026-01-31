@@ -1,0 +1,46 @@
+{
+  "companies": [
+    {
+      "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+      "name": "99 Speedmart",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/99LogoM.jpg/440px-99LogoM.jpg",
+      "description": "Malaysia's largest mini market retail chain. Affordable and convenient for everyone, everywhere.",
+      "overview": "99 Speedmart is Malaysia's largest mini market retail chain, offering a wide range of daily essentials, groceries, and household items at affordable prices. Founded with the mission to make shopping convenient and accessible for everyone, the chain has expanded across the country with hundreds of outlets. 99 Speedmart focuses on neighbourhood convenience, longer operating hours, and competitive pricing to serve communities in both urban and suburban areas.",
+      "stockSymbol": "5296.KL",
+      "storeLocationsUrl": "/data/malaysia/speedmart/sabah_speedmart.geojson",
+      "distributionCentersUrl": "/data/malaysia/geojson/malaysia.geojson"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e",
+      "name": "Mr. DIY",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c2/MR.DIY_logo.png",
+      "description": "Always low prices. One of the largest home improvement retailers in Malaysia and the region.",
+      "overview": "Mr. DIY is one of the largest home improvement retailers in Malaysia and the region, offering a wide range of hardware, household, and lifestyle products at always low prices. The chain has grown rapidly across Southeast Asia, providing DIY enthusiasts and homeowners with affordable quality products for renovation, repair, and daily living.",
+      "stockSymbol": "5297.KL",
+      "storeLocationsUrl": "/data/malaysia/speedmart/sabah_speedmart.geojson"
+    },
+    {
+      "id": "c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f",
+      "name": "Foodie Media",
+      "logo": "https://ui-avatars.com/api/?name=Foodie+Media&size=160&background=C5D86D&color=1f2937&bold=true",
+      "description": "#1 Digital Food Media in Southeast Asia. Lifestyle focused digital media connecting F&B to diners.",
+      "overview": "Foodie Media is Southeast Asia's leading digital food media platform, connecting F&B brands with diners through lifestyle-focused content, reviews, and recommendations. The platform helps restaurants and cafes reach food enthusiasts and supports diners in discovering new culinary experiences."
+    },
+    {
+      "id": "d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a",
+      "name": "Life Water",
+      "logo": "/assets/logos/LifeWater-Logo.jpeg",
+      "description": "Life Water Industries Sdn Bhd. Making quality beverages affordable for everyone.",
+      "overview": "Life Water Industries Sdn Bhd produces and distributes quality beverages, making them affordable and accessible for everyone. The company focuses on providing safe, reliable drinking water and beverage options to communities and businesses across Malaysia."
+    },
+    {
+      "id": "e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b",
+      "name": "Family Mart",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/FamilyMart_logo.svg/440px-FamilyMart_logo.svg.png",
+      "description": "Convenience store chain offering ready-to-eat meals, snacks, and daily essentials across Malaysia.",
+      "overview": "Family Mart is an international convenience store chain with a strong presence in Malaysia. The chain offers a wide range of ready-to-eat meals, onigiri, bento, snacks, beverages, and daily essentials. Family Mart stores are known for extended operating hours and locations in urban areas, transport hubs, and shopping centres.",
+      "storeLocationsUrl": "/api/files/uploads/family_mart.geojson",
+      "menuUrl": "/data/malaysia/family_mart_menu.json"
+    }
+  ]
+}
