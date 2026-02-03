@@ -1,0 +1,36 @@
+{
+  "name": "ermap-backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main",
+    "test:detection": "node scripts/test-detection.js",
+    "models:minimal": "node scripts/create_minimal_onnx.js",
+    "models:convert": "pip install -r scripts/requirements-convert.txt && python scripts/download_and_convert_models.py"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.28",
+    "@langchain/langgraph": "^0.2.34",
+    "@langchain/openai": "^0.3.14",
+    "@nestjs/common": "^11.0.1",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/core": "^11.0.1",
+    "@nestjs/platform-express": "^11.0.1",
+    "multer": "^2.0.2",
+    "onnxruntime-node": "^1.23.2",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "sharp": "^0.34.5",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.0",
+    "@types/express": "^5.0.0",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3"
+  }
+}

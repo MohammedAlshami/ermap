@@ -1,0 +1,4 @@
+# For converting Keras models to ONNX (run: pip install -r requirements-convert.txt)
+tensorflow>=2.15,<2.20
+tf2onnx>=1.16
+requests>=2.28
