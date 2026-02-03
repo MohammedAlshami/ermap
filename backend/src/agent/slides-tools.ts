@@ -64,6 +64,61 @@ class AddSlideTool extends StructuredTool<any, any, any, string> {
   }
 }
 
+const slideToAddSchema = z.object({
+  title: z.string().describe('Title of the slide'),
+  layer_ids: z
+    .array(z.string())
+    .describe(
+      `Layer ids to show on this slide. Only use: ${VALID_LAYER_IDS.join(', ')}`,
+    ),
+});
+
+/** Add multiple slides at once. Use when the user asks for several slides or a slideshow plan. */
+class AddSlidesTool extends StructuredTool<any, any, any, string> {
+  name = 'add_slides';
+  description = `Add multiple slides to the map slideshow in one call. Use when the user asks to add several slides, create a slideshow, or "add 3 slides with ...". Pass slides_to_add (array of { title, layer_ids } for each slide) and current_slides_json. Layer ids must be from: ${VALID_LAYER_IDS.join(', ')}. Returns the updated slides array as JSON string.`;
+  schema = z.object({
+    slides_to_add: z
+      .array(slideToAddSchema)
+      .min(1)
+      .describe(
+        'Array of slides to add. Each has title and layer_ids (array of layer id strings).',
+      ),
+    current_slides_json: z
+      .string()
+      .describe('Current slides array as JSON string'),
+  }) as z.ZodTypeAny;
+
+  protected async _call(arg: {
+    slides_to_add: Array<{ title: string; layer_ids: string[] }>;
+    current_slides_json: string;
+  }): Promise<string> {
+    const { slides_to_add, current_slides_json } = arg;
+    let slides = parseSlides(current_slides_json);
+    const toAdd = Array.isArray(slides_to_add) ? slides_to_add : [];
+    for (const item of toAdd) {
+      const title = String(item?.title ?? 'New slide').trim() || 'New slide';
+      const layerIds = Array.isArray(item?.layer_ids) ? item.layer_ids : [];
+      const validIds = layerIds.filter((id) =>
+        VALID_LAYER_IDS.includes(String(id).trim()),
+      );
+      const layerEntries = validIds.map((layerId) => ({
+        layerId: String(layerId).trim(),
+        type: 'markers' as const,
+      }));
+      const newSlide: SlideDto = {
+        id: `slide-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`,
+        title,
+        layerEntries,
+        descriptionHtml: '<p></p>',
+        contentPosition: 'bottom-center',
+      };
+      slides = [...slides, newSlide];
+    }
+    return JSON.stringify(slides);
+  }
+}
+
 /** Remove-slide tool implemented without tool() to avoid TS2589 deep type instantiation. */
 class RemoveSlideTool extends StructuredTool<any, any, any, string> {
   name = 'remove_slide';
@@ -99,6 +154,10 @@ class RemoveSlideTool extends StructuredTool<any, any, any, string> {
 
 export function createAddSlideTool(): AddSlideTool {
   return new AddSlideTool();
+}
+
+export function createAddSlidesTool(): AddSlidesTool {
+  return new AddSlidesTool();
 }
 
 export function createRemoveSlideTool(): RemoveSlideTool {

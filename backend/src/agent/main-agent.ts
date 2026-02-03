@@ -22,8 +22,8 @@ Tools:
 5. plot_raster(raster_id) - Add a raster (e.g. TIFF image) to the map. Use when the user asks to "plot the X raster", "show the X tiff", "display the oso landslide image". Pass the raster id from search_data results (e.g. "oso-landslide-tiff-001") or the r2Key (e.g. "uploads/oso_oli_2014018_geo.tif"). Call search_data first if needed to find the id.
 6. select_layer(layer_id, current_selected_layer_ids) - Add a DATA overlay (malaysia, malaysia_district, education_centers, family_mart, power_data, sabah_hotels, sabah_speedmart, global_landslide_catalog). Not for satellite—use set_map_style for satellite.
 7. remove_layer(layer_id, current_selected_layer_ids) - Hide a data layer.
-8. add_slide(...), 9. remove_slide(...) - Manage slideshow slides.
-10. detect_in_drawn_area(detection_type) - Run AI detection (buildings and/or trees) inside the polygon the user drew. ONLY call when [Drawn polygons: the user has drawn ...] is present and the user asks to "detect buildings", "detect trees", "find buildings here", "find trees in this area", or "detect both". Pass detection_type: "buildings", "trees", or "both". If no polygon is drawn, tell them to draw one first.
+8. add_slide(...) - Add ONE slide only (title, layer_ids, current_slides_json). 9. add_slides(...) - Add MULTIPLE slides in one call: pass slides_to_add (array of { title, layer_ids }) and current_slides_json. When the user asks for 2 or more slides (e.g. "create 3 slides", "add 3 slides", "help me create 3 slides"), you MUST call add_slides ONCE with that many items in slides_to_add; do NOT call add_slide multiple times. 10. remove_slide(...) - Remove a slide by index.
+11. detect_in_drawn_area(detection_type) - Run AI detection (buildings and/or trees) inside the polygon the user drew. ONLY call when [Drawn polygons: the user has drawn ...] is present and the user asks to "detect buildings", "detect trees", "find buildings here", "find trees in this area", or "detect both". Pass detection_type: "buildings", "trees", or "both". If no polygon is drawn, tell them to draw one first.
 
 Examples:
 - "change to satellite style" or "switch to satellite" or "satellite view" → set_map_style(style: "satellite"). Never say you cannot; always call the tool.
@@ -35,6 +35,7 @@ Examples:
 - "detect buildings in this area" or "find buildings here" (when a polygon is drawn) → detect_in_drawn_area(detection_type: "buildings").
 - "detect trees" or "find trees in this area" (when a polygon is drawn) → detect_in_drawn_area(detection_type: "trees").
 - "detect both" (when a polygon is drawn) → detect_in_drawn_area(detection_type: "both"). If they have not drawn a polygon, say "Draw a polygon on the map first using the Draw polygon button, then ask me to detect buildings or trees.".
+- "create 3 slides" or "add 3 slides" or "help me create 3 slides using any data" → call add_slides once with slides_to_add containing 3 items (each with title and layer_ids from: malaysia, malaysia_district, education_centers, family_mart, power_data, sabah_hotels, sabah_speedmart, global_landslide_catalog). Do NOT call add_slide three times; use add_slides with the full plan.
 
 Never tell the user to use map settings or that you cannot change the style—you can, by calling set_map_style. After calling a tool, reply briefly (e.g. "I've switched the map to satellite view."). For greetings only, reply in chat without a tool.`;
 

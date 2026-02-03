@@ -2,16 +2,27 @@ import { createFileRoute, Link } from '@tanstack/react-router';
 import { useState, useEffect, useMemo } from 'react';
 import { MapLibrary } from '~/components/MapLibrary';
 import type { MapLibraryConfig } from '~/components/MapLibrary';
-import { buildSlideshowSlidesFromConfig } from '~/config/layerOptions';
+import { buildSlideshowSlidesFromConfig, buildLayerConfigWithType, LAYER_OPTIONS } from '~/config/layerOptions';
+import type { GeoJSONLayerConfig } from '~/components/MapLibrary';
+
+function buildLayerConfig(opt: (typeof LAYER_OPTIONS)[number]): GeoJSONLayerConfig {
+  return buildLayerConfigWithType(opt, 'markers');
+}
 
 export const Route = createFileRoute('/p/$shareId')({
   component: PublicProjectPage,
 });
 
+type ProjectConfig = {
+  slides?: Array<{ id: string; title: string; layerEntries?: { layerId: string; type: string }[]; descriptionHtml?: string; contentPosition?: string }>;
+  mapStyle?: string;
+  selectedLayerIds?: string[];
+};
+
 function PublicProjectPage() {
   const { shareId } = Route.useParams();
   const [name, setName] = useState('');
-  const [config, setConfig] = useState<{ slides?: Array<{ id: string; title: string; layerEntries?: { layerId: string; type: string }[]; descriptionHtml?: string; contentPosition?: string }>; mapStyle?: string } | null>(null);
+  const [config, setConfig] = useState<ProjectConfig | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
@@ -34,19 +45,23 @@ function PublicProjectPage() {
       .finally(() => setLoading(false));
   }, [shareId]);
 
-  const mapConfig: MapLibraryConfig | null = useMemo(() => {
-    if (!config) return null;
+  const mapConfig: MapLibraryConfig = useMemo(() => {
     const mapStyleUrl =
-      config.mapStyle === 'satellite'
+      config?.mapStyle === 'satellite'
         ? 'mapbox://styles/mapbox/satellite-v9'
         : 'mapbox://styles/mapbox/light-v11';
     const slideshowSlides =
-      config.slides?.length ? buildSlideshowSlidesFromConfig(config.slides) : [];
+      config?.slides?.length ? buildSlideshowSlidesFromConfig(config.slides) : [];
+    const selectedIds = new Set(config?.selectedLayerIds ?? []);
+    const layers =
+      selectedIds.size > 0
+        ? LAYER_OPTIONS.filter((opt) => selectedIds.has(opt.id)).map(buildLayerConfig)
+        : [];
     return {
       mapboxAccessToken: (import.meta.env.VITE_MAPBOX_TOKEN as string) || '',
       style: mapStyleUrl,
       initialCamera: { center: [101.9758, 4.2105], zoom: 6 },
-      layers: [],
+      layers,
       ...(slideshowSlides.length > 0
         ? {
             slideshow: {
@@ -61,55 +76,26 @@ function PublicProjectPage() {
     };
   }, [config]);
 
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-background">
-        <p className="text-muted-foreground">Loading…</p>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4 bg-background p-4">
-        <p className="text-muted-foreground">Project not found.</p>
-        <Link to="/" className="text-primary font-medium hover:underline">
-          Go home
-        </Link>
-      </div>
-    );
-  }
-
-  if (!mapConfig) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4 bg-background p-4">
-        <p className="text-muted-foreground">Unable to load project.</p>
-        <Link to="/" className="text-primary font-medium hover:underline">
-          Go home
-        </Link>
-      </div>
-    );
-  }
-
   return (
-    <div className="min-h-screen flex flex-col bg-background">
-      <header className="shrink-0 flex items-center justify-between gap-4 px-4 py-2 border-b border-border bg-background/95 backdrop-blur">
-        <Link to="/" className="text-lg font-semibold text-foreground hover:opacity-90 font-phudu">
-          ERMAP
-        </Link>
-        <span className="text-sm text-muted-foreground truncate max-w-[60%]" title={name}>
-          {name}
-        </span>
-        <Link
-          to="/"
-          className="text-sm font-medium text-muted-foreground hover:text-foreground"
-        >
-          Home
-        </Link>
-      </header>
-      <main className="flex-1 min-h-0 relative">
-        <MapLibrary config={mapConfig} />
+    <div className="h-screen flex flex-col bg-background relative overflow-hidden">
+      <main className="flex-1 min-h-0 flex flex-col min-w-0 relative">
+        <div className="flex-1 min-h-0 min-w-0 flex flex-col relative">
+          <MapLibrary config={mapConfig} className="absolute inset-0 w-full h-full" />
+        </div>
       </main>
+      {loading && (
+        <div className="absolute inset-0 z-10 flex items-center justify-center bg-background/80 backdrop-blur-sm">
+          <p className="text-muted-foreground">Loading…</p>
+        </div>
+      )}
+      {error && !loading && (
+        <div className="absolute top-4 left-1/2 z-10 -translate-x-1/2 rounded-lg border border-border/50 bg-background/95 px-4 py-2 shadow-sm backdrop-blur">
+          <p className="text-muted-foreground text-sm">Project not found.</p>
+          <Link to="/" className="mt-1 block text-sm font-medium text-primary hover:underline">
+            Go home
+          </Link>
+        </div>
+      )}
     </div>
   );
 }

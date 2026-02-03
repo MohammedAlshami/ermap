@@ -532,8 +532,20 @@ function CustomizePage() {
                   }
                 }
               }
-              if (data.type === 'done' && data.session_id) {
-                setChatSessionId(data.session_id);
+              if (data.type === 'done') {
+                if (data.session_id) setChatSessionId(data.session_id);
+                // Apply final slides from done chunk so we always sync with backend (e.g. add_slides returning full list)
+                if (Array.isArray(data.slides)) {
+                  setSlides(
+                    data.slides.map((s) => ({
+                      id: s.id,
+                      title: s.title,
+                      layerEntries: s.layerEntries ?? [],
+                      descriptionHtml: s.descriptionHtml ?? '<p></p>',
+                      contentPosition: (s.contentPosition as SlideContentPosition) ?? 'bottom-center',
+                    })),
+                  );
+                }
               }
               if (data.type === 'error' && data.error?.message) {
                 setChatMessages((prev) => [
@@ -666,23 +678,45 @@ function CustomizePage() {
       collapsible: true,
       defaultExpanded: true,
       onBack: () => router.history.back(),
-      headerRight:
-        currentProject?.share_id ? (
-          <button
-            type="button"
-            onClick={handleCopyShareLink}
-            className="p-1.5 rounded-md hover:bg-muted text-muted-foreground hover:text-foreground transition-colors"
-            title={shareCopied ? 'Copied!' : 'Copy share link'}
-          >
-            {shareCopied ? (
-              <span className="text-xs font-medium text-primary">Copied!</span>
-            ) : (
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
-              </svg>
-            )}
-          </button>
-        ) : null,
+      headerRight: (
+        <div className="flex items-center gap-1">
+          {user && (
+            <button
+              type="button"
+              onClick={handleSaveProject}
+              disabled={saveStatus === 'saving'}
+              className="p-1.5 rounded-md hover:bg-muted text-muted-foreground hover:text-foreground transition-colors disabled:opacity-50 disabled:pointer-events-none"
+              title={saveStatus === 'saving' ? 'Saving…' : saveStatus === 'saved' ? 'Saved' : 'Save project'}
+            >
+              {saveStatus === 'saving' ? (
+                <span className="text-xs font-medium text-muted-foreground">Saving…</span>
+              ) : saveStatus === 'saved' ? (
+                <span className="text-xs font-medium text-primary">Saved</span>
+              ) : (
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+                </svg>
+              )}
+            </button>
+          )}
+          {currentProject?.share_id && (
+            <button
+              type="button"
+              onClick={handleCopyShareLink}
+              className="p-1.5 rounded-md hover:bg-muted text-muted-foreground hover:text-foreground transition-colors"
+              title={shareCopied ? 'Copied!' : 'Copy share link'}
+            >
+              {shareCopied ? (
+                <span className="text-xs font-medium text-primary">Copied!</span>
+              ) : (
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                </svg>
+              )}
+            </button>
+          )}
+        </div>
+      ),
       content: (
         <div className="p-3 flex flex-col flex-1 min-h-0 gap-3">
           {user && (

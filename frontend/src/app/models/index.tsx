@@ -47,13 +47,13 @@ function ModelsIndexPage() {
   }, [searchQuery]);
 
   return (
-    <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
-      <div className="max-w-5xl mx-auto">
-        <div className="text-left mb-8">
-          <h1 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl mb-3">
+    <div className="w-full overflow-hidden">
+      <section className="mx-auto max-w-5xl px-4 py-16 md:px-6 md:py-20">
+        <header className="mb-10">
+          <h1 className="text-4xl font-semibold tracking-tight text-balance text-foreground">
             Models
           </h1>
-          <p className="text-muted-foreground text-base max-w-xl mb-6">
+          <p className="text-muted-foreground mt-3 text-lg max-w-xl">
             Browse and run models for geographic and imagery analysis.
           </p>
           <input
@@ -61,16 +61,16 @@ function ModelsIndexPage() {
             placeholder="Search models by name, type, or description..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full max-w-md rounded-lg border border-input bg-background px-3 py-2.5 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+            className="mt-6 w-full max-w-md rounded-xl border border-border/50 bg-background px-4 py-2.5 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-ring"
           />
-        </div>
+        </header>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filteredModels.map((model) => (
             <Card
               key={model.id}
               className={cn(
-                'h-full border-0 transition-all duration-200 shadow-sm hover:shadow-md bg-card text-card-foreground pt-0 overflow-hidden'
+                'h-full rounded-xl border border-border/50 bg-card text-card-foreground shadow-xs transition-all duration-300 hover:shadow-lg pt-0 overflow-hidden'
               )}
             >
               <div className="relative h-44 w-full overflow-hidden rounded-t-xl">
@@ -97,7 +97,7 @@ function ModelsIndexPage() {
         {filteredModels.length === 0 && (
           <p className="text-muted-foreground">No models match your search.</p>
         )}
-      </div>
-    </section>
+      </section>
+    </div>
   );
 }

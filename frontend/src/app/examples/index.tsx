@@ -50,20 +50,20 @@ function ExamplesIndexPage() {
   );
 
   return (
-    <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-left mb-12">
-            <h1 className="text-2xl font-bold tracking-tight text-foreground sm:text-3xl mb-3">
-              Examples
-            </h1>
-            <p className="text-muted-foreground text-base max-w-xl">
-              Map visualizations and use cases.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 gap-6">
+    <div className="w-full overflow-hidden">
+      <section className="mx-auto max-w-5xl px-4 py-16 md:px-6 md:py-20">
+        <header className="mb-10">
+          <h1 className="text-4xl font-semibold tracking-tight text-balance text-foreground">
+            Examples
+          </h1>
+          <p className="text-muted-foreground mt-3 text-lg max-w-xl">
+            Map visualizations and use cases.
+          </p>
+        </header>
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {allExamples.map((example) => (
             <Link key={example.to} to={example.to} className="group block h-full">
-              <Card className="h-full border-0 transition-all duration-200 shadow-sm hover:shadow-md overflow-hidden bg-card text-card-foreground pt-0">
+              <Card className="h-full rounded-xl border border-border/50 bg-card text-card-foreground shadow-xs transition-all duration-300 hover:shadow-lg overflow-hidden pt-0">
                 <div className="relative h-44 w-full overflow-hidden rounded-t-xl">
                   <img
                     src={CARD_IMAGE}
@@ -95,8 +95,8 @@ function ExamplesIndexPage() {
               </Card>
             </Link>
           ))}
-          </div>
         </div>
-    </section>
+      </section>
+    </div>
   );
 }
