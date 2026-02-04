@@ -2,8 +2,12 @@ import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import type { BaseMessage } from '@langchain/core/messages';
 import { AIMessage, ToolMessage } from '@langchain/core/messages';
-import { createAddSlideTool, createAddSlidesTool } from '../agent/slides-tools';
-import { createRemoveSlideTool } from '../agent/slides-tools';
+import {
+  createAddSlideTool,
+  createAddSlidesTool,
+  createRemoveSlideTool,
+  createEditSlideTool,
+} from '../agent/slides-tools';
 import { createSelectLayerTool, createRemoveLayerTool } from '../agent/layers-tools';
 import { createSearchPlaceTool } from '../agent/places-tools';
 import { createSetMapStyleTool } from '../agent/map-style-tools';
@@ -44,7 +48,7 @@ function buildQuery(
 ): string {
   let query = message.trim();
   const slidesJson = JSON.stringify(slides ?? []);
-  query += `\n\n[Current slides (pass as current_slides_json when calling add_slide, add_slides, or remove_slide):\n${slidesJson}]`;
+  query += `\n\n[Current slides (pass as current_slides_json when calling add_slide, add_slides, remove_slide, or edit_slide):\n${slidesJson}]`;
   const layersJson = JSON.stringify(selectedLayerIds ?? []);
   query += `\n\n[Current selected layer ids (pass as current_selected_layer_ids when calling select_layer or remove_layer):\n${layersJson}]`;
   const hasDrawnPolygons =
@@ -198,6 +202,7 @@ export class ChatService {
       createAddSlideTool(),
       createAddSlidesTool(),
       createRemoveSlideTool(),
+      createEditSlideTool(),
       createSelectLayerTool(),
       createRemoveLayerTool(),
       createSearchPlaceTool(geocodeKey),
@@ -441,7 +446,7 @@ export class ChatService {
             continue;
           }
           if (
-            (msgName === 'add_slide' || msgName === 'add_slides' || msgName === 'remove_slide') &&
+            (msgName === 'add_slide' || msgName === 'add_slides' || msgName === 'remove_slide' || msgName === 'edit_slide') &&
             msg.content != null
           ) {
             const raw =

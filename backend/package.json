@@ -8,6 +8,7 @@
     "start:dev": "nest start --watch",
     "start:prod": "node dist/main",
     "test:detection": "node scripts/test-detection.js",
+    "test:chat:slides": "node scripts/test-chat-slides.js",
     "models:minimal": "node scripts/create_minimal_onnx.js",
     "models:convert": "pip install -r scripts/requirements-convert.txt && python scripts/download_and_convert_models.py"
   },

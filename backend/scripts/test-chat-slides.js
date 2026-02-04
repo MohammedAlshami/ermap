@@ -21,7 +21,7 @@ function loadEnv(pathname) {
 loadEnv(path.join(__dirname, '..', '.env'));
 loadEnv(path.join(__dirname, '..', '.env.local'));
 
-const BASE = process.env.BACKEND_URL || 'http://localhost:3010';
+const BASE = process.env.BACKEND_URL || 'http://localhost:3002';
 
 const payload = {
   message: 'Help me create 3 slides please using any data. First Malaysia districts, second education centers, third global landslide catalog.',

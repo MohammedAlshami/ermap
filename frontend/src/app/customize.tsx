@@ -90,8 +90,7 @@ function CustomizePage() {
   const { projectId } = useSearch({ from: '/customize' });
   const { user, getAuthHeaders } = useAuth();
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
-  const [searchQuery, setSearchQuery] = useState('');
-  const [sideTab, setSideTab] = useState<'chat' | 'layers' | 'slides'>('chat');
+  const [sideTab, setSideTab] = useState<'chat' | 'slides'>('chat');
   const [slides, setSlides] = useState<CustomSlide[]>([]);
   const [editingSlideId, setEditingSlideId] = useState<string | null>(null);
   const [chatMessages, setChatMessages] = useState<ChatMessage[]>([]);
@@ -244,22 +243,6 @@ function CustomizePage() {
     });
   };
 
-  const addSlide = () => {
-    const id = `slide-${Date.now()}`;
-    setSlides((prev) => [
-      ...prev,
-      {
-        id,
-        title: 'New slide',
-        layerEntries: [],
-        descriptionHtml: '<p></p>',
-        contentPosition: 'bottom-center',
-      },
-    ]);
-    setEditingSlideId(id);
-    setSideTab('slides');
-  };
-
   const updateSlide = (id: string, patch: Partial<CustomSlide>) => {
     setSlides((prev) => prev.map((s) => (s.id === id ? { ...s, ...patch } : s)));
   };
@@ -368,6 +351,7 @@ function CustomizePage() {
                 assistantContent = data.content;
                 setStreamingContent(data.content);
               }
+              // Replace with full slides array so add_slides (multiple at once) displays all slides
               if (data.type === 'slides' && Array.isArray(data.slides)) {
                 setSlides(
                   data.slides.map((s) => ({
@@ -581,12 +565,6 @@ function CustomizePage() {
 
   const editingSlide = editingSlideId ? slides.find((s) => s.id === editingSlideId) : null;
 
-  const filteredOptions = useMemo(() => {
-    const q = searchQuery.trim().toLowerCase();
-    if (!q) return LAYER_OPTIONS;
-    return LAYER_OPTIONS.filter((opt) => opt.name.toLowerCase().includes(q));
-  }, [searchQuery]);
-
   const activeLayers = useMemo(() => {
     return LAYER_OPTIONS.filter((opt) => selectedIds.has(opt.id)).map(buildLayerConfig);
   }, [selectedIds]);
@@ -652,7 +630,7 @@ function CustomizePage() {
         ? []
         : activeLayers,
     legend:
-      sideTab === 'layers' && legendEntries.length > 0
+      legendEntries.length > 0
         ? {
             title: 'Layers',
             position: 'bottom-left',
@@ -719,38 +697,9 @@ function CustomizePage() {
       ),
       content: (
         <div className="p-3 flex flex-col flex-1 min-h-0 gap-3">
-          {user && (
-            <div className="shrink-0 space-y-2 rounded-lg border border-border bg-muted/20 p-2">
-              <input
-                type="text"
-                placeholder="Project name"
-                value={projectName}
-                onChange={(e) => setProjectName(e.target.value)}
-                className="w-full rounded border border-input bg-background px-2.5 py-1.5 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-              />
-              <div className="flex flex-wrap gap-2">
-                <Button
-                  type="button"
-                  size="sm"
-                  onClick={handleSaveProject}
-                  disabled={saveStatus === 'saving'}
-                >
-                  {saveStatus === 'saving' ? 'Saving…' : currentProject ? 'Save' : 'Save as project'}
-                </Button>
-                {currentProject?.share_id && (
-                  <Button type="button" size="sm" variant="outline" onClick={handleCopyShareLink}>
-                    {shareCopied ? 'Copied!' : 'Copy share link'}
-                  </Button>
-                )}
-              </div>
-              {saveStatus === 'saved' && <p className="text-xs text-muted-foreground">Saved.</p>}
-              {saveStatus === 'error' && <p className="text-xs text-destructive">Save failed.</p>}
-            </div>
-          )}
-          <Tabs value={sideTab} onValueChange={(v) => setSideTab(v as 'chat' | 'layers' | 'slides')} className="flex-1 min-h-0 overflow-hidden flex flex-col">
-            <TabsList className="w-full grid grid-cols-3 rounded-lg shrink-0">
+          <Tabs value={sideTab} onValueChange={(v) => setSideTab(v as 'chat' | 'slides')} className="flex-1 min-h-0 overflow-hidden flex flex-col">
+            <TabsList className="w-full grid grid-cols-2 rounded-lg shrink-0">
               <TabsTrigger value="chat">Chat</TabsTrigger>
-              <TabsTrigger value="layers">Layers</TabsTrigger>
               <TabsTrigger value="slides">Slides</TabsTrigger>
             </TabsList>
             <TabsContent value="chat" className="mt-3 flex-1 min-h-0 flex flex-col overflow-hidden">
@@ -842,43 +791,6 @@ function CustomizePage() {
                     </button>
                   </div>
                 </div>
-              </div>
-            </TabsContent>
-            <TabsContent value="layers" className="mt-3 flex flex-col gap-3 flex-1 min-h-0">
-              <input
-                type="search"
-                placeholder="Search layers..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full rounded-lg border border-input bg-background px-3 py-2.5 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-              />
-              <div className="space-y-2 overflow-y-auto flex-1 min-h-0">
-                {filteredOptions.map((opt) => {
-                  const isSelected = selectedIds.has(opt.id);
-                  return (
-                    <Card
-                      key={opt.id}
-                      className={cn(
-                        'cursor-pointer transition-all duration-200 border rounded-lg min-h-[56px] py-0 gap-0 shadow-sm',
-                        isSelected
-                          ? 'bg-gray-100 border-border hover:bg-gray-100'
-                          : 'bg-card border-border/80 hover:bg-muted/40'
-                      )}
-                      onClick={() => toggleLayer(opt.id)}
-                    >
-                      <CardContent className="flex items-center gap-3 p-4">
-                        <span
-                          className="shrink-0 w-4 h-4 rounded-full border border-gray-300"
-                          style={{ backgroundColor: opt.color }}
-                          title={opt.color}
-                        />
-                        <span className="flex-1 text-sm font-medium text-foreground truncate">
-                          {opt.name}
-                        </span>
-                      </CardContent>
-                    </Card>
-                  );
-                })}
               </div>
             </TabsContent>
             <TabsContent value="slides" className="mt-3 flex flex-col gap-3 flex-1 min-h-0 overflow-y-auto">
@@ -1038,19 +950,11 @@ function CustomizePage() {
                 <>
                   <div className="flex items-center justify-between gap-2">
                     <span className="text-sm font-medium">Slides</span>
-                    <button
-                      type="button"
-                      onClick={addSlide}
-                      className="text-xs text-primary hover:underline"
-                    >
-                      + Add slide
-                    </button>
                   </div>
                   <div className="space-y-2">
                     {slides.length === 0 ? (
                       <p className="text-xs text-muted-foreground py-2">
-                        No slides yet. Add a slide to build a slideshow; each slide can show
-                        different layers and a rich-text description.
+                        No slides yet. Ask in Chat to add slides (e.g. &quot;create 3 slides&quot; or &quot;add a slide with Malaysia&quot;).
                       </p>
                     ) : (
                       slides.map((s) => (
